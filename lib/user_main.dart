@@ -1,0 +1,435 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:sic_app/custom/custom_color.dart';
+import 'package:sic_app/custom/emergency_state.dart';
+import 'package:sic_app/custom/my_user_info.dart';
+import 'package:sic_app/custom/personal_info.dart';
+import 'package:sic_app/custom/user_key.dart';
+import 'package:sic_app/image_picker_screen.dart';
+import 'package:sic_app/login_enter_form.dart';
+import 'package:sic_app/personal_info_setting.dart';
+import 'package:sic_app/setting_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+class UserMain extends StatelessWidget {
+  const UserMain({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: MyColor.white,
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Content(),
+          Container(
+            decoration: BoxDecoration(
+              border: Border.fromBorderSide(
+                BorderSide(
+                  color: MyColor.black,
+                  width: 1.0,
+                  strokeAlign: BorderSide.strokeAlignOutside,
+                ),
+              ),
+              gradient: LinearGradient(
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+                colors: <Color>[MyColor.pinkSecondary, MyColor.bluePrimary],
+                stops: [0.04, 1.0],
+              ),
+            ),
+            child: Row(children: [SettingButton()]),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class Content extends StatelessWidget {
+  const Content({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            WelcomeText(),
+            ButtonCard(
+              svg: SvgPicture.asset(
+                'assets/face_scan_logo.svg',
+                width: 100,
+                height: 100,
+              ),
+              button: FaceScanButton(),
+              onTap:
+                  () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ImagePickerScreen(),
+                    ),
+                  ),
+              route: MaterialPageRoute(
+                builder: (context) => ImagePickerScreen(),
+              ),
+            ),
+            ButtonCard(
+              svg: SvgPicture.asset(
+                'assets/arm_test_logo.svg',
+                width: 100,
+                height: 100,
+              ),
+              button: ArmTestButton(),
+              route: MaterialPageRoute(builder: (context) => LoginEnterForm()),
+            ),
+            EmergencyButton(),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class WelcomeText extends StatefulWidget {
+  const WelcomeText({super.key});
+
+  @override
+  State<WelcomeText> createState() => _WelcomeTextState();
+}
+
+class _WelcomeTextState extends State<WelcomeText> {
+  @override
+  void initState() {
+    super.initState();
+    PersonalInfo.cloudPersonalInfoGetter(onUpdate: () => setState(() {}));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // Initialize the non-nullable variable 'username'
+    final String nickname =
+        PersonalInfo.nickname; // Replace with actual username if available
+
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(width: 1, color: MyColor.black),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: <Color>[
+            MyColor.white,
+            MyColor.pinkSecondary,
+            MyColor.pinkPrimary,
+          ],
+          stops: [0.72, 0.87, 1.0],
+
+          // tileMode: TileMode.mirror,
+        ),
+      ),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: <Color>[
+              MyColor.bluePrimary,
+              MyColor.blueSecondary,
+              MyColor.white,
+            ],
+            stops: [0, 0.11, 0.68],
+          ).withOpacity(0.5),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20),
+              child: Text(
+                'สวัสดีครับ คุณ$nickname',
+                style: TextStyle(fontSize: 24, color: MyColor.black),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class FaceScanButton extends StatelessWidget {
+  const FaceScanButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        color: MyColor.squareColor,
+        border: Border.all(color: MyColor.black, width: 1.0),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
+        child: Text(
+          'กดที่นี่เพื่อสแกนใบหน้าประจำวัน',
+          style: TextStyle(fontSize: 24, color: MyColor.black),
+        ),
+      ),
+    );
+  }
+}
+
+class ArmTestButton extends StatelessWidget {
+  const ArmTestButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        color: MyColor.squareColor,
+        border: Border.all(color: MyColor.black, width: 1.0),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
+        child: Text(
+          'กดที่นี่เพื่อทดสอบแขนประจำวัน',
+          style: TextStyle(fontSize: 24, color: MyColor.black),
+        ),
+      ),
+    );
+  }
+}
+
+class EmergencyButton extends StatelessWidget {
+  const EmergencyButton({super.key});
+  
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {
+        print('emergency tapped');
+        // Call your onPressed or onTap function here
+      },
+      child: Container(
+        width: 120,
+        height: 165,
+        child: Center(
+          child: Column(
+            children: [
+              PhoneButton(),
+              SizedBox(height: 5),
+              Text(
+                'โทร 1669',
+                style: TextStyle(fontSize: 24, color: MyColor.black),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class PhoneButton extends StatefulWidget {
+  const PhoneButton({super.key});
+
+  @override
+  State<PhoneButton> createState() => _PhoneButtonState();
+}
+
+class _PhoneButtonState extends State<PhoneButton> {
+  late String latitude;
+  late String longitude;
+  final db = FirebaseFirestore.instance;
+
+  Future<Position> _getLocation() async {
+    bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      await Geolocator.openLocationSettings();
+      return Future.error('Location services are disabled.');
+    }
+    LocationPermission permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        return Future.error('Location permissions are denied');
+      }
+    }
+    if (permission == LocationPermission.deniedForever) {
+      return Future.error(
+        'Location permissions are permanently denied, we cannot request permissions.',
+      );
+    }
+    return await Geolocator.getCurrentPosition(
+      desiredAccuracy: LocationAccuracy.high,
+    );
+  }
+  void callEmergencyNumber() async {
+  final Uri phoneUri = Uri(scheme: 'tel', path: '0841452614'); // Replace with the actual emergency number
+  if (await canLaunchUrl(phoneUri)) {
+    await launchUrl(phoneUri);
+  } else {
+    print('Could not launch dialer');
+  }
+}
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {
+        // Navigator.push(
+        //   context,
+        //   MaterialPageRoute(builder: (context) => LoginEnterForm()),
+        // );
+        _getLocation()
+            .then((value) {
+              latitude = value.latitude.toString();
+              longitude = value.longitude.toString();
+              // Update the user's position in Firestore
+              final position = {"latitude": latitude, "longitude": longitude};
+              db
+                  .collection("UserInfo")
+                  .doc(UserKey.userKey)
+                  .set({
+                    "Position": position,
+                  }, SetOptions(merge: true)) // merge to update existing fields
+                  .onError((e, _) => print("Error writing document: $e"));
+
+              print('Latitude: $latitude, Longitude: $longitude');
+            })
+            .catchError((error) {
+              print('Error getting location: $error');
+            });
+        print('Phone button tapped');
+        if (IsStateEmergency.isEmergency == false) {
+          IsStateEmergency.setEmergencyState(isEmergency: true);
+          print('State not emergency ---> emergency');
+          IsStateEmergency.setCloudEmergencyState(
+            onUpdate: () {
+              print('Emergency(true) state updated in Firestore');
+            },
+          );
+          callEmergencyNumber(); // Call the emergency number
+        } else {
+          IsStateEmergency.setEmergencyState(isEmergency: false);
+          print('State emergency ---> not emergency');
+          IsStateEmergency.setCloudEmergencyState(
+            onUpdate: () {
+              print('Emergency(false) state updated in Firestore');
+            },
+          );
+        }
+
+        // Call your onPressed or onTap function here
+      },
+      child: Container(
+        width: 120,
+        height: 120,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(30),
+          color: MyColor.danger,
+          border: Border.all(color: MyColor.black, width: 1.0),
+        ),
+        child: Center(
+          child: SvgPicture.asset('assets/phone.svg', width: 100, height: 100),
+        ),
+      ),
+    );
+  }
+}
+
+class SettingButton extends StatelessWidget {
+  const SettingButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => SettingScreen()),
+        );
+        print('Settings button tapped');
+        // Call your onPressed or onTap function here
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Center(
+          child: Row(
+            children: [
+              SvgPicture.asset(
+                'assets/setting_logo.svg',
+                width: 40,
+                height: 40,
+              ),
+              SizedBox(width: 10),
+              Text(
+                'ตั้งค่า',
+                style: TextStyle(fontSize: 24, color: MyColor.black),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class ButtonCard extends StatelessWidget {
+  final SvgPicture svg;
+  final Widget button;
+  final MaterialPageRoute route;
+  final void Function()? onTap;
+
+  const ButtonCard({
+    super.key,
+    required this.svg,
+    required this.button,
+    required this.route,
+    this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+
+      child: Container(
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(width: 1, color: MyColor.black),
+          color: MyColor.bluePrimary,
+          gradient: LinearGradient(
+            begin: Alignment.bottomLeft,
+            end: Alignment.topRight,
+            colors: <Color>[
+              MyColor.bluePrimary,
+              MyColor.blueSecondary,
+              MyColor.blueSecondary,
+              MyColor.bluePrimary,
+            ],
+            stops: [0, 0.26, 0.6, 1.0],
+            // tileMode: TileMode.mirror,
+          ),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [svg, SizedBox(height: 10), button],
+          ),
+        ),
+      ),
+    );
+  }
+}

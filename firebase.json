@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ai-can-see-your-stroke",
+          "appId": "1:428624106878:android:9ea0a4d5a31370ff5b0f2f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ai-can-see-your-stroke",
+          "configurations": {
+            "android": "1:428624106878:android:9ea0a4d5a31370ff5b0f2f",
+            "ios": "1:428624106878:ios:df7f2dd027db36aa5b0f2f",
+            "macos": "1:428624106878:ios:df7f2dd027db36aa5b0f2f",
+            "web": "1:428624106878:web:0e1e4dc42fa8b4085b0f2f",
+            "windows": "1:428624106878:web:e45e6e46996161715b0f2f"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": true,
+      "port": 42069
+    },
+    "singleProjectMode": true
+  }
+}
