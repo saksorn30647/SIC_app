@@ -34,24 +34,31 @@ android {
         minSdk = 24
         targetSdk = flutter.targetSdkVersion
     }
+    signingConfigs {
+        create("release") {
+            storeFile = file("my-release-key.jks")
+            storePassword = "password"
+            keyAlias = "my-key-alias"
+            keyPassword = "password"
+        }
+    }
+
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = true // or false if testing
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+            signingConfig = signingConfigs.getByName("release")
+        }
+    }
+
 
 }
 
 flutter {
     source = "../.."
-}
-
-android {
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = true
-            isShrinkResources = true
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                file("proguard-rules.pro")
-            )
-        }
-    }
 }
 
 
