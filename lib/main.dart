@@ -37,7 +37,7 @@ Future<void> main() async {
 }
 
 class MainApp extends StatelessWidget {
-  // static const pickImageChannel = MethodChannel('myImageView'); 
+  // static const pickImageChannel = MethodChannel('myImageView');
 
   const MainApp({super.key});
 
@@ -51,21 +51,20 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: 
-          LoginSceen(), 
+      home:
+          LoginSceen(),
           // LoginEnterForm(),
-            // RegisterEnterForm(),  
-              // PersonalInfoSetting(),
-              // HealthInfoSetting(), 
-            // UserMain(),
-              // SettingScreen(),
-              // ImagePickerScreen(),
-            // DoctorMain(),
-              // DoctorDanger(),
+          // RegisterEnterForm(),
+          // PersonalInfoSetting(),
+          // HealthInfoSetting(),
+          // UserMain(),
+          // SettingScreen(),
+          // ImagePickerScreen(),
+          // DoctorMain(),
+          // DoctorDanger(),
           // MyImageView(imageUrl: '',)
           //TOFO: Logo design
       theme: ThemeData(scaffoldBackgroundColor: MyColor.white),
     );
   }
 }
-

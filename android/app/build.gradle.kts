@@ -33,6 +33,9 @@ android {
         // minSdk = flutter.minSdkVersion
         minSdk = 24
         targetSdk = flutter.targetSdkVersion
+        versionCode = 1
+        versionName = "1.0"
+
     }
     signingConfigs {
         create("release") {
@@ -45,15 +48,20 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = true // or false if testing
+            isMinifyEnabled = false // or false if testing
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
             signingConfig = signingConfigs.getByName("release")
+            isShrinkResources = false
+
         }
     }
 
+    packagingOptions {
+        pickFirst("**/*.so")
+    }
 
 }
 

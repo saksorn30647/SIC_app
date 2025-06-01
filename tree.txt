@@ -1,0 +1,4515 @@
+Folder PATH listing
+Volume serial number is 8AC6-ADD5
+D:.
++---.dart_tool
+¦   +---dartpad
+¦   +---extension_discovery
+¦   +---flutter_build
++---.idea
+¦   +---caches
+¦   +---libraries
++---.vscode
++---android
+¦   +---.gradle
+¦   ¦   +---8.10.2
+¦   ¦   ¦   +---checksums
+¦   ¦   ¦   +---dependencies-accessors
+¦   ¦   ¦   +---executionHistory
+¦   ¦   ¦   +---expanded
+¦   ¦   ¦   +---fileChanges
+¦   ¦   ¦   +---fileHashes
+¦   ¦   ¦   +---vcsMetadata
+¦   ¦   +---buildOutputCleanup
+¦   ¦   +---kotlin
+¦   ¦   ¦   +---errors
+¦   ¦   ¦   +---sessions
+¦   ¦   +---noVersion
+¦   ¦   +---vcs-1
+¦   +---app
+¦   ¦   +---.cxx
+¦   ¦   ¦   +---Debug
+¦   ¦   ¦   ¦   +---2h621n6b
+¦   ¦   ¦   ¦       +---arm64-v8a
+¦   ¦   ¦   ¦       ¦   +---.cmake
+¦   ¦   ¦   ¦       ¦   ¦   +---api
+¦   ¦   ¦   ¦       ¦   ¦       +---v1
+¦   ¦   ¦   ¦       ¦   ¦           +---query
+¦   ¦   ¦   ¦       ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦   ¦       ¦   ¦           +---reply
+¦   ¦   ¦   ¦       ¦   +---CMakeFiles
+¦   ¦   ¦   ¦       ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdC
+¦   ¦   ¦   ¦       ¦       ¦   ¦   +---tmp
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦   ¦       ¦       ¦       +---tmp
+¦   ¦   ¦   ¦       ¦       +---CMakeTmp
+¦   ¦   ¦   ¦       +---armeabi-v7a
+¦   ¦   ¦   ¦       ¦   +---.cmake
+¦   ¦   ¦   ¦       ¦   ¦   +---api
+¦   ¦   ¦   ¦       ¦   ¦       +---v1
+¦   ¦   ¦   ¦       ¦   ¦           +---query
+¦   ¦   ¦   ¦       ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦   ¦       ¦   ¦           +---reply
+¦   ¦   ¦   ¦       ¦   +---CMakeFiles
+¦   ¦   ¦   ¦       ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdC
+¦   ¦   ¦   ¦       ¦       ¦   ¦   +---tmp
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦   ¦       ¦       ¦       +---tmp
+¦   ¦   ¦   ¦       ¦       +---CMakeTmp
+¦   ¦   ¦   ¦       +---x86
+¦   ¦   ¦   ¦       ¦   +---.cmake
+¦   ¦   ¦   ¦       ¦   ¦   +---api
+¦   ¦   ¦   ¦       ¦   ¦       +---v1
+¦   ¦   ¦   ¦       ¦   ¦           +---query
+¦   ¦   ¦   ¦       ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦   ¦       ¦   ¦           +---reply
+¦   ¦   ¦   ¦       ¦   +---CMakeFiles
+¦   ¦   ¦   ¦       ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdC
+¦   ¦   ¦   ¦       ¦       ¦   ¦   +---tmp
+¦   ¦   ¦   ¦       ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦   ¦       ¦       ¦       +---tmp
+¦   ¦   ¦   ¦       ¦       +---CMakeTmp
+¦   ¦   ¦   ¦       +---x86_64
+¦   ¦   ¦   ¦           +---.cmake
+¦   ¦   ¦   ¦           ¦   +---api
+¦   ¦   ¦   ¦           ¦       +---v1
+¦   ¦   ¦   ¦           ¦           +---query
+¦   ¦   ¦   ¦           ¦           ¦   +---client-agp
+¦   ¦   ¦   ¦           ¦           +---reply
+¦   ¦   ¦   ¦           +---CMakeFiles
+¦   ¦   ¦   ¦               +---3.22.1-g37088a8-dirty
+¦   ¦   ¦   ¦               ¦   +---CompilerIdC
+¦   ¦   ¦   ¦               ¦   ¦   +---tmp
+¦   ¦   ¦   ¦               ¦   +---CompilerIdCXX
+¦   ¦   ¦   ¦               ¦       +---tmp
+¦   ¦   ¦   ¦               +---CMakeTmp
+¦   ¦   ¦   +---RelWithDebInfo
+¦   ¦   ¦       +---32r2e202
+¦   ¦   ¦           +---arm64-v8a
+¦   ¦   ¦           ¦   +---.cmake
+¦   ¦   ¦           ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦       +---v1
+¦   ¦   ¦           ¦   ¦           +---query
+¦   ¦   ¦           ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦           ¦   ¦           +---reply
+¦   ¦   ¦           ¦   +---CMakeFiles
+¦   ¦   ¦           ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦           ¦       ¦   +---CompilerIdC
+¦   ¦   ¦           ¦       ¦   ¦   +---tmp
+¦   ¦   ¦           ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦           ¦       ¦       +---tmp
+¦   ¦   ¦           ¦       +---CMakeTmp
+¦   ¦   ¦           +---armeabi-v7a
+¦   ¦   ¦           ¦   +---.cmake
+¦   ¦   ¦           ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦       +---v1
+¦   ¦   ¦           ¦   ¦           +---query
+¦   ¦   ¦           ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦           ¦   ¦           +---reply
+¦   ¦   ¦           ¦   +---CMakeFiles
+¦   ¦   ¦           ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦           ¦       ¦   +---CompilerIdC
+¦   ¦   ¦           ¦       ¦   ¦   +---tmp
+¦   ¦   ¦           ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦           ¦       ¦       +---tmp
+¦   ¦   ¦           ¦       +---CMakeTmp
+¦   ¦   ¦           +---x86
+¦   ¦   ¦           ¦   +---.cmake
+¦   ¦   ¦           ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦       +---v1
+¦   ¦   ¦           ¦   ¦           +---query
+¦   ¦   ¦           ¦   ¦           ¦   +---client-agp
+¦   ¦   ¦           ¦   ¦           +---reply
+¦   ¦   ¦           ¦   +---CMakeFiles
+¦   ¦   ¦           ¦       +---3.22.1-g37088a8-dirty
+¦   ¦   ¦           ¦       ¦   +---CompilerIdC
+¦   ¦   ¦           ¦       ¦   ¦   +---tmp
+¦   ¦   ¦           ¦       ¦   +---CompilerIdCXX
+¦   ¦   ¦           ¦       ¦       +---tmp
+¦   ¦   ¦           ¦       +---CMakeTmp
+¦   ¦   ¦           +---x86_64
+¦   ¦   ¦               +---.cmake
+¦   ¦   ¦               ¦   +---api
+¦   ¦   ¦               ¦       +---v1
+¦   ¦   ¦               ¦           +---query
+¦   ¦   ¦               ¦           ¦   +---client-agp
+¦   ¦   ¦               ¦           +---reply
+¦   ¦   ¦               +---CMakeFiles
+¦   ¦   ¦                   +---3.22.1-g37088a8-dirty
+¦   ¦   ¦                   ¦   +---CompilerIdC
+¦   ¦   ¦                   ¦   ¦   +---tmp
+¦   ¦   ¦                   ¦   +---CompilerIdCXX
+¦   ¦   ¦                   ¦       +---tmp
+¦   ¦   ¦                   +---CMakeTmp
+¦   ¦   +---src
+¦   ¦       +---debug
+¦   ¦       +---main
+¦   ¦       ¦   +---assets
+¦   ¦       ¦   +---java
+¦   ¦       ¦   ¦   +---io
+¦   ¦       ¦   ¦       +---flutter
+¦   ¦       ¦   ¦           +---plugins
+¦   ¦       ¦   +---kotlin
+¦   ¦       ¦   ¦   +---com
+¦   ¦       ¦   ¦       +---example
+¦   ¦       ¦   ¦           +---sic_app
+¦   ¦       ¦   +---res
+¦   ¦       ¦       +---drawable
+¦   ¦       ¦       +---drawable-v21
+¦   ¦       ¦       +---mipmap-hdpi
+¦   ¦       ¦       +---mipmap-mdpi
+¦   ¦       ¦       +---mipmap-xhdpi
+¦   ¦       ¦       +---mipmap-xxhdpi
+¦   ¦       ¦       +---mipmap-xxxhdpi
+¦   ¦       ¦       +---values
+¦   ¦       ¦       +---values-night
+¦   ¦       +---profile
+¦   +---gradle
+¦       +---wrapper
++---assets
++---build
+¦   +---2413e68519c3c84032c58dd441e2ddac
+¦   +---app
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦       +---google-services
+¦   ¦   ¦       ¦   +---debug
+¦   ¦   ¦       ¦   ¦   +---values
+¦   ¦   ¦       ¦   +---release
+¦   ¦   ¦       ¦       +---values
+¦   ¦   ¦       +---pngs
+¦   ¦   ¦       ¦   +---debug
+¦   ¦   ¦       ¦   +---release
+¦   ¦   ¦       +---resValues
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           +---release
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_proguard_file
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---aar_metadata_check
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---checkDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---checkReleaseAarMetadata
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---apk_ide_redirect_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---createDebugApkListingFileRedirect
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createReleaseApkListingFileRedirect
+¦   ¦   ¦   +---app_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAppMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAppMetadata
+¦   ¦   ¦   +---assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugAssets
+¦   ¦   ¦   ¦   ¦       +---flutter_assets
+¦   ¦   ¦   ¦   ¦           +---assets
+¦   ¦   ¦   ¦   ¦           +---fonts
+¦   ¦   ¦   ¦   ¦           +---shaders
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseAssets
+¦   ¦   ¦   ¦           +---flutter_assets
+¦   ¦   ¦   ¦               +---assets
+¦   ¦   ¦   ¦               +---fonts
+¦   ¦   ¦   ¦               +---shaders
+¦   ¦   ¦   +---binary_art_profile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseArtProfile
+¦   ¦   ¦   +---binary_art_profile_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseArtProfile
+¦   ¦   ¦   +---combined_art_profile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseArtProfile
+¦   ¦   ¦   +---compatible_screen_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---createDebugCompatibleScreenManifests
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createReleaseCompatibleScreenManifests
+¦   ¦   ¦   +---compile_and_runtime_not_namespaced_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---compressed_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compressDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   ¦           +---assets
+¦   ¦   ¦   ¦   ¦               +---flutter_assets
+¦   ¦   ¦   ¦   ¦                   +---assets
+¦   ¦   ¦   ¦   ¦                   +---fonts
+¦   ¦   ¦   ¦   ¦                   +---shaders
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compressReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---assets
+¦   ¦   ¦   ¦                   +---flutter_assets
+¦   ¦   ¦   ¦                       +---assets
+¦   ¦   ¦   ¦                       +---fonts
+¦   ¦   ¦   ¦                       +---shaders
+¦   ¦   ¦   +---cxx
+¦   ¦   ¦   ¦   +---Debug
+¦   ¦   ¦   ¦   ¦   +---2h621n6b
+¦   ¦   ¦   ¦   ¦       +---logs
+¦   ¦   ¦   ¦   ¦       ¦   +---arm64-v8a
+¦   ¦   ¦   ¦   ¦       ¦   +---armeabi-v7a
+¦   ¦   ¦   ¦   ¦       ¦   +---x86
+¦   ¦   ¦   ¦   ¦       ¦   +---x86_64
+¦   ¦   ¦   ¦   ¦       +---obj
+¦   ¦   ¦   ¦   ¦           +---arm64-v8a
+¦   ¦   ¦   ¦   ¦           +---armeabi-v7a
+¦   ¦   ¦   ¦   ¦           +---x86
+¦   ¦   ¦   ¦   ¦           +---x86_64
+¦   ¦   ¦   ¦   +---RelWithDebInfo
+¦   ¦   ¦   ¦       +---32r2e202
+¦   ¦   ¦   ¦           +---logs
+¦   ¦   ¦   ¦           ¦   +---arm64-v8a
+¦   ¦   ¦   ¦           ¦   +---armeabi-v7a
+¦   ¦   ¦   ¦           ¦   +---x86
+¦   ¦   ¦   ¦           ¦   +---x86_64
+¦   ¦   ¦   ¦           +---obj
+¦   ¦   ¦   ¦               +---arm64-v8a
+¦   ¦   ¦   ¦               +---armeabi-v7a
+¦   ¦   ¦   ¦               +---x86
+¦   ¦   ¦   ¦               +---x86_64
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---desugar_graph
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---currentProject
+¦   ¦   ¦   ¦                   +---dirs_bucket_0
+¦   ¦   ¦   ¦                   +---dirs_bucket_1
+¦   ¦   ¦   ¦                   +---dirs_bucket_2
+¦   ¦   ¦   ¦                   +---dirs_bucket_3
+¦   ¦   ¦   ¦                   +---jar_1fd646c0ef81862287619dbf683c749dc70e035ec35a439c7c67640486ca08a5_bucket_0
+¦   ¦   ¦   ¦                   +---jar_1fd646c0ef81862287619dbf683c749dc70e035ec35a439c7c67640486ca08a5_bucket_1
+¦   ¦   ¦   ¦                   +---jar_1fd646c0ef81862287619dbf683c749dc70e035ec35a439c7c67640486ca08a5_bucket_2
+¦   ¦   ¦   ¦                   +---jar_1fd646c0ef81862287619dbf683c749dc70e035ec35a439c7c67640486ca08a5_bucket_3
+¦   ¦   ¦   +---dex
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeExtDexDebug
+¦   ¦   ¦   ¦   ¦   +---mergeLibDexDebug
+¦   ¦   ¦   ¦   ¦   ¦   +---0
+¦   ¦   ¦   ¦   ¦   ¦   +---1
+¦   ¦   ¦   ¦   ¦   ¦   +---10
+¦   ¦   ¦   ¦   ¦   ¦   +---11
+¦   ¦   ¦   ¦   ¦   ¦   +---12
+¦   ¦   ¦   ¦   ¦   ¦   +---13
+¦   ¦   ¦   ¦   ¦   ¦   +---14
+¦   ¦   ¦   ¦   ¦   ¦   +---15
+¦   ¦   ¦   ¦   ¦   ¦   +---2
+¦   ¦   ¦   ¦   ¦   ¦   +---3
+¦   ¦   ¦   ¦   ¦   ¦   +---4
+¦   ¦   ¦   ¦   ¦   ¦   +---5
+¦   ¦   ¦   ¦   ¦   ¦   +---6
+¦   ¦   ¦   ¦   ¦   ¦   +---7
+¦   ¦   ¦   ¦   ¦   ¦   +---8
+¦   ¦   ¦   ¦   ¦   ¦   +---9
+¦   ¦   ¦   ¦   ¦   +---mergeProjectDexDebug
+¦   ¦   ¦   ¦   ¦       +---0
+¦   ¦   ¦   ¦   ¦       +---1
+¦   ¦   ¦   ¦   ¦       +---10
+¦   ¦   ¦   ¦   ¦       +---11
+¦   ¦   ¦   ¦   ¦       +---12
+¦   ¦   ¦   ¦   ¦       +---13
+¦   ¦   ¦   ¦   ¦       +---14
+¦   ¦   ¦   ¦   ¦       +---15
+¦   ¦   ¦   ¦   ¦       +---2
+¦   ¦   ¦   ¦   ¦       +---3
+¦   ¦   ¦   ¦   ¦       +---4
+¦   ¦   ¦   ¦   ¦       +---5
+¦   ¦   ¦   ¦   ¦       +---6
+¦   ¦   ¦   ¦   ¦       +---7
+¦   ¦   ¦   ¦   ¦       +---8
+¦   ¦   ¦   ¦   ¦       +---9
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---minifyReleaseWithR8
+¦   ¦   ¦   +---dex_archive_input_jar_hashes
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   +---dex_metadata_directory
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseArtProfile
+¦   ¦   ¦   ¦           +---0
+¦   ¦   ¦   ¦           +---1
+¦   ¦   ¦   +---dex_number_of_buckets_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   +---duplicate_classes_check
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---checkDebugDuplicateClasses
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---checkReleaseDuplicateClasses
+¦   ¦   ¦   +---external_file_lib_dex_archives
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---desugarDebugFileDependencies
+¦   ¦   ¦   +---external_libs_dex_archive
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---external_libs_dex_archive_with_artifact_transforms
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---flutter
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---flutter_assets
+¦   ¦   ¦   ¦   ¦       +---assets
+¦   ¦   ¦   ¦   ¦       +---fonts
+¦   ¦   ¦   ¦   ¦       +---shaders
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---arm64-v8a
+¦   ¦   ¦   ¦       +---armeabi-v7a
+¦   ¦   ¦   ¦       +---flutter_assets
+¦   ¦   ¦   ¦       ¦   +---assets
+¦   ¦   ¦   ¦       ¦   +---fonts
+¦   ¦   ¦   ¦       ¦   +---shaders
+¦   ¦   ¦   ¦       +---x86_64
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-h720dp-v13
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hdpi-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-land
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-large-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ldltr-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-night-v8
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-port
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw600dp-v13
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v16
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v17
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v18
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v22
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v23
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v24
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v25
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v26
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v28
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-watch-v20
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-watch-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-xlarge-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       ¦   +---values
+¦   ¦   ¦   ¦   ¦       ¦   +---values-night-v8
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugAssets
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseAssets
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebug
+¦   ¦   ¦   ¦   ¦   +---tmp
+¦   ¦   ¦   ¦   ¦       +---debug
+¦   ¦   ¦   ¦   ¦           +---zip-cache
+¦   ¦   ¦   ¦   +---packageRelease
+¦   ¦   ¦   ¦   ¦   +---tmp
+¦   ¦   ¦   ¦   ¦       +---release
+¦   ¦   ¦   ¦   ¦           +---zip-cache
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-h720dp-v13
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hdpi-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-land
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-large-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ldltr-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-night-v8
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-port
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw600dp-v13
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v16
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v17
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v18
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v22
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v23
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v24
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v25
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v26
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v28
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-watch-v20
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-watch-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-xlarge-v4
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       ¦   +---values
+¦   ¦   ¦   ¦   ¦       ¦   +---values-night-v8
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   +---java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugJavaRes
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   ¦           +---com
+¦   ¦   ¦   ¦   ¦           ¦   +---example
+¦   ¦   ¦   ¦   ¦           ¦       +---sic_app
+¦   ¦   ¦   ¦   ¦           +---META-INF
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseJavaRes
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---com
+¦   ¦   ¦   ¦               ¦   +---example
+¦   ¦   ¦   ¦               ¦       +---sic_app
+¦   ¦   ¦   ¦               +---META-INF
+¦   ¦   ¦   +---linked_resources_binary_format
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---linked_resources_proto_format
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---convertLinkedResourcesToProtoRelease
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   ¦   +---maven.google
+¦   ¦   ¦   ¦   ¦   ¦   +---androidx
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---activity
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---constraintlayout
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---fragment
+¦   ¦   ¦   ¦   ¦   ¦   +---com
+¦   ¦   ¦   ¦   ¦   ¦       +---google
+¦   ¦   ¦   ¦   ¦   ¦           +---ai
+¦   ¦   ¦   ¦   ¦   ¦           ¦   +---edge
+¦   ¦   ¦   ¦   ¦   ¦           ¦       +---litert
+¦   ¦   ¦   ¦   ¦   ¦           +---mediapipe
+¦   ¦   ¦   ¦   ¦   +---sdk_index
+¦   ¦   ¦   ¦   +---lintVitalReportRelease
+¦   ¦   ¦   +---lint_vital_intermediate_text_report
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalReportRelease
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---lint_vital_report_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalReportModel
+¦   ¦   ¦   +---lint_vital_return_value
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalReportRelease
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugMainManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseMainManifest
+¦   ¦   ¦   +---merged-not-compiled-resources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---anim
+¦   ¦   ¦   ¦       +---anim-v21
+¦   ¦   ¦   ¦       +---animator
+¦   ¦   ¦   ¦       +---color
+¦   ¦   ¦   ¦       +---color-v23
+¦   ¦   ¦   ¦       +---drawable
+¦   ¦   ¦   ¦       +---drawable-anydpi-v21
+¦   ¦   ¦   ¦       +---drawable-anydpi-v24
+¦   ¦   ¦   ¦       +---drawable-hdpi-v4
+¦   ¦   ¦   ¦       +---drawable-ldpi-v4
+¦   ¦   ¦   ¦       +---drawable-ldrtl-hdpi-v17
+¦   ¦   ¦   ¦       +---drawable-ldrtl-mdpi-v17
+¦   ¦   ¦   ¦       +---drawable-ldrtl-xhdpi-v17
+¦   ¦   ¦   ¦       +---drawable-ldrtl-xxhdpi-v17
+¦   ¦   ¦   ¦       +---drawable-ldrtl-xxxhdpi-v17
+¦   ¦   ¦   ¦       +---drawable-mdpi-v4
+¦   ¦   ¦   ¦       +---drawable-v21
+¦   ¦   ¦   ¦       +---drawable-v23
+¦   ¦   ¦   ¦       +---drawable-watch-v20
+¦   ¦   ¦   ¦       +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦       +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦       +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦       +---interpolator
+¦   ¦   ¦   ¦       +---layout
+¦   ¦   ¦   ¦       +---layout-v21
+¦   ¦   ¦   ¦       +---layout-v26
+¦   ¦   ¦   ¦       +---layout-watch-v20
+¦   ¦   ¦   ¦       +---mipmap-hdpi-v4
+¦   ¦   ¦   ¦       +---mipmap-mdpi-v4
+¦   ¦   ¦   ¦       +---mipmap-xhdpi-v4
+¦   ¦   ¦   ¦       +---mipmap-xxhdpi-v4
+¦   ¦   ¦   ¦       +---mipmap-xxxhdpi-v4
+¦   ¦   ¦   ¦       +---raw
+¦   ¦   ¦   ¦       +---values
+¦   ¦   ¦   ¦       +---values-af
+¦   ¦   ¦   ¦       +---values-am
+¦   ¦   ¦   ¦       +---values-ar
+¦   ¦   ¦   ¦       +---values-as
+¦   ¦   ¦   ¦       +---values-az
+¦   ¦   ¦   ¦       +---values-b+sr+Latn
+¦   ¦   ¦   ¦       +---values-be
+¦   ¦   ¦   ¦       +---values-bg
+¦   ¦   ¦   ¦       +---values-bn
+¦   ¦   ¦   ¦       +---values-bs
+¦   ¦   ¦   ¦       +---values-ca
+¦   ¦   ¦   ¦       +---values-cs
+¦   ¦   ¦   ¦       +---values-da
+¦   ¦   ¦   ¦       +---values-de
+¦   ¦   ¦   ¦       +---values-el
+¦   ¦   ¦   ¦       +---values-en-rAU
+¦   ¦   ¦   ¦       +---values-en-rCA
+¦   ¦   ¦   ¦       +---values-en-rGB
+¦   ¦   ¦   ¦       +---values-en-rIN
+¦   ¦   ¦   ¦       +---values-en-rXC
+¦   ¦   ¦   ¦       +---values-es
+¦   ¦   ¦   ¦       +---values-es-rUS
+¦   ¦   ¦   ¦       +---values-et
+¦   ¦   ¦   ¦       +---values-eu
+¦   ¦   ¦   ¦       +---values-fa
+¦   ¦   ¦   ¦       +---values-fi
+¦   ¦   ¦   ¦       +---values-fr
+¦   ¦   ¦   ¦       +---values-fr-rCA
+¦   ¦   ¦   ¦       +---values-gl
+¦   ¦   ¦   ¦       +---values-gu
+¦   ¦   ¦   ¦       +---values-h720dp-v13
+¦   ¦   ¦   ¦       +---values-hdpi-v4
+¦   ¦   ¦   ¦       +---values-hi
+¦   ¦   ¦   ¦       +---values-hr
+¦   ¦   ¦   ¦       +---values-hu
+¦   ¦   ¦   ¦       +---values-hy
+¦   ¦   ¦   ¦       +---values-in
+¦   ¦   ¦   ¦       +---values-is
+¦   ¦   ¦   ¦       +---values-it
+¦   ¦   ¦   ¦       +---values-iw
+¦   ¦   ¦   ¦       +---values-ja
+¦   ¦   ¦   ¦       +---values-ka
+¦   ¦   ¦   ¦       +---values-kk
+¦   ¦   ¦   ¦       +---values-km
+¦   ¦   ¦   ¦       +---values-kn
+¦   ¦   ¦   ¦       +---values-ko
+¦   ¦   ¦   ¦       +---values-ky
+¦   ¦   ¦   ¦       +---values-land
+¦   ¦   ¦   ¦       +---values-large-v4
+¦   ¦   ¦   ¦       +---values-ldltr-v21
+¦   ¦   ¦   ¦       +---values-lo
+¦   ¦   ¦   ¦       +---values-lt
+¦   ¦   ¦   ¦       +---values-lv
+¦   ¦   ¦   ¦       +---values-mk
+¦   ¦   ¦   ¦       +---values-ml
+¦   ¦   ¦   ¦       +---values-mn
+¦   ¦   ¦   ¦       +---values-mr
+¦   ¦   ¦   ¦       +---values-ms
+¦   ¦   ¦   ¦       +---values-my
+¦   ¦   ¦   ¦       +---values-nb
+¦   ¦   ¦   ¦       +---values-ne
+¦   ¦   ¦   ¦       +---values-night-v8
+¦   ¦   ¦   ¦       +---values-nl
+¦   ¦   ¦   ¦       +---values-or
+¦   ¦   ¦   ¦       +---values-pa
+¦   ¦   ¦   ¦       +---values-pl
+¦   ¦   ¦   ¦       +---values-port
+¦   ¦   ¦   ¦       +---values-pt
+¦   ¦   ¦   ¦       +---values-pt-rBR
+¦   ¦   ¦   ¦       +---values-pt-rPT
+¦   ¦   ¦   ¦       +---values-ro
+¦   ¦   ¦   ¦       +---values-ru
+¦   ¦   ¦   ¦       +---values-si
+¦   ¦   ¦   ¦       +---values-sk
+¦   ¦   ¦   ¦       +---values-sl
+¦   ¦   ¦   ¦       +---values-sq
+¦   ¦   ¦   ¦       +---values-sr
+¦   ¦   ¦   ¦       +---values-sv
+¦   ¦   ¦   ¦       +---values-sw
+¦   ¦   ¦   ¦       +---values-sw600dp-v13
+¦   ¦   ¦   ¦       +---values-ta
+¦   ¦   ¦   ¦       +---values-te
+¦   ¦   ¦   ¦       +---values-th
+¦   ¦   ¦   ¦       +---values-tl
+¦   ¦   ¦   ¦       +---values-tr
+¦   ¦   ¦   ¦       +---values-uk
+¦   ¦   ¦   ¦       +---values-ur
+¦   ¦   ¦   ¦       +---values-uz
+¦   ¦   ¦   ¦       +---values-v16
+¦   ¦   ¦   ¦       +---values-v17
+¦   ¦   ¦   ¦       +---values-v18
+¦   ¦   ¦   ¦       +---values-v21
+¦   ¦   ¦   ¦       +---values-v22
+¦   ¦   ¦   ¦       +---values-v23
+¦   ¦   ¦   ¦       +---values-v24
+¦   ¦   ¦   ¦       +---values-v25
+¦   ¦   ¦   ¦       +---values-v26
+¦   ¦   ¦   ¦       +---values-v28
+¦   ¦   ¦   ¦       +---values-vi
+¦   ¦   ¦   ¦       +---values-watch-v20
+¦   ¦   ¦   ¦       +---values-watch-v21
+¦   ¦   ¦   ¦       +---values-xlarge-v4
+¦   ¦   ¦   ¦       +---values-zh-rCN
+¦   ¦   ¦   ¦       +---values-zh-rHK
+¦   ¦   ¦   ¦       +---values-zh-rTW
+¦   ¦   ¦   ¦       +---values-zu
+¦   ¦   ¦   ¦       +---xml
+¦   ¦   ¦   +---merged_art_profile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseArtProfile
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   ¦       +---minifyReleaseWithR8
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugMainManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseMainManifest
+¦   ¦   ¦   +---merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_native_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugNativeLibs
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   ¦           +---lib
+¦   ¦   ¦   ¦   ¦               +---arm64-v8a
+¦   ¦   ¦   ¦   ¦               +---armeabi-v7a
+¦   ¦   ¦   ¦   ¦               +---x86
+¦   ¦   ¦   ¦   ¦               +---x86_64
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseNativeLibs
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---lib
+¦   ¦   ¦   ¦                   +---arm64-v8a
+¦   ¦   ¦   ¦                   +---armeabi-v7a
+¦   ¦   ¦   ¦                   +---x86
+¦   ¦   ¦   ¦                   +---x86_64
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   ¦           +---multi-v2
+¦   ¦   ¦   ¦   ¦           +---single
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_test_only_native_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugNativeLibs
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseNativeLibs
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---metadata_library_dependencies_report
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---collectReleaseDependencies
+¦   ¦   ¦   +---mixed_scope_dex_archive
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---native_symbol_tables
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseNativeSymbolTables
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---arm64-v8a
+¦   ¦   ¦   ¦               +---armeabi-v7a
+¦   ¦   ¦   ¦               +---x86
+¦   ¦   ¦   ¦               +---x86_64
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---optimized_processed_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---optimizeReleaseResources
+¦   ¦   ¦   +---packaged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifestForPackage
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifestForPackage
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---drawable-v21
+¦   ¦   ¦   ¦   ¦       +---mipmap-hdpi-v4
+¦   ¦   ¦   ¦   ¦       +---mipmap-mdpi-v4
+¦   ¦   ¦   ¦   ¦       +---mipmap-xhdpi-v4
+¦   ¦   ¦   ¦   ¦       +---mipmap-xxhdpi-v4
+¦   ¦   ¦   ¦   ¦       +---mipmap-xxxhdpi-v4
+¦   ¦   ¦   ¦   ¦       +---values
+¦   ¦   ¦   ¦   ¦       +---values-night-v8
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---mipmap-hdpi-v4
+¦   ¦   ¦   ¦           +---mipmap-mdpi-v4
+¦   ¦   ¦   ¦           +---mipmap-xhdpi-v4
+¦   ¦   ¦   ¦           +---mipmap-xxhdpi-v4
+¦   ¦   ¦   ¦           +---mipmap-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-night-v8
+¦   ¦   ¦   +---project_dex_archive
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---com
+¦   ¦   ¦   ¦               ¦   +---example
+¦   ¦   ¦   ¦               ¦       +---sic_app
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   +---r8_art_profile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---expandReleaseArtProfileWildcards
+¦   ¦   ¦   ¦       +---minifyReleaseWithR8
+¦   ¦   ¦   +---r8_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---minifyReleaseWithR8
+¦   ¦   ¦   +---runtime_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---sdk_dependency_data
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---sdkReleaseDependencyData
+¦   ¦   ¦   +---shrunk_resources_binary_format
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---convertShrunkResourcesToBinaryRelease
+¦   ¦   ¦   +---shrunk_resources_proto_format
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---shrinkReleaseRes
+¦   ¦   ¦   +---signing_config_versions
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugSigningConfigVersions
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseSigningConfigVersions
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mapDebugSourceSetPaths
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---stable_resource_ids_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---stripped_native_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---stripDebugDebugSymbols
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   ¦           +---lib
+¦   ¦   ¦   ¦   ¦               +---arm64-v8a
+¦   ¦   ¦   ¦   ¦               +---armeabi-v7a
+¦   ¦   ¦   ¦   ¦               +---x86
+¦   ¦   ¦   ¦   ¦               +---x86_64
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---stripReleaseDebugSymbols
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---lib
+¦   ¦   ¦   ¦                   +---arm64-v8a
+¦   ¦   ¦   ¦                   +---armeabi-v7a
+¦   ¦   ¦   ¦                   +---x86
+¦   ¦   ¦   ¦                   +---x86_64
+¦   ¦   ¦   +---sub_project_dex_archive
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---dexBuilderDebug
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseResources
+¦   ¦   ¦   +---validate_signing_config
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---validateSigningDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---validateSigningRelease
+¦   ¦   ¦   +---version_control_info_file
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---extractReleaseVersionControlInfo
+¦   ¦   +---kotlin
+¦   ¦   ¦   +---compileDebugKotlin
+¦   ¦   ¦   ¦   +---cacheable
+¦   ¦   ¦   ¦   ¦   +---caches-jvm
+¦   ¦   ¦   ¦   ¦       +---inputs
+¦   ¦   ¦   ¦   ¦       +---jvm
+¦   ¦   ¦   ¦   ¦       ¦   +---kotlin
+¦   ¦   ¦   ¦   ¦       +---lookups
+¦   ¦   ¦   ¦   +---classpath-snapshot
+¦   ¦   ¦   ¦   +---local-state
+¦   ¦   ¦   +---compileReleaseKotlin
+¦   ¦   ¦       +---cacheable
+¦   ¦   ¦       ¦   +---caches-jvm
+¦   ¦   ¦       ¦       +---inputs
+¦   ¦   ¦       ¦       +---jvm
+¦   ¦   ¦       ¦       ¦   +---kotlin
+¦   ¦   ¦       ¦       +---lookups
+¦   ¦   ¦       +---classpath-snapshot
+¦   ¦   ¦       +---local-state
+¦   ¦   +---kotlinToolingMetadata
+¦   ¦   +---outputs
+¦   ¦   ¦   +---apk
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---baselineProfiles
+¦   ¦   ¦   ¦           +---0
+¦   ¦   ¦   ¦           +---1
+¦   ¦   ¦   +---flutter-apk
+¦   ¦   ¦   +---logs
+¦   ¦   ¦   +---mapping
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---native-debug-symbols
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---sdk-dependencies
+¦   ¦   ¦       +---release
+¦   ¦   +---snapshot
+¦   ¦   ¦   +---kotlin
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦       ¦   +---compileTransaction
+¦   ¦       ¦       +---backup-dir
+¦   ¦       ¦       +---stash-dir
+¦   ¦       +---kotlin-classes
+¦   ¦       ¦   +---debug
+¦   ¦       ¦   ¦   +---com
+¦   ¦       ¦   ¦   ¦   +---example
+¦   ¦       ¦   ¦   ¦       +---sic_app
+¦   ¦       ¦   ¦   +---META-INF
+¦   ¦       ¦   +---release
+¦   ¦       ¦       +---com
+¦   ¦       ¦       ¦   +---example
+¦   ¦       ¦       ¦       +---sic_app
+¦   ¦       ¦       +---META-INF
+¦   ¦       +---packJniLibsflutterBuildDebug
+¦   ¦       +---packJniLibsflutterBuildRelease
+¦   +---cloud_firestore
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---c05706122cc614fe43addc735b5a2c8d
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---firestore
+¦   ¦   ¦                                   +---streamhandler
+¦   ¦   ¦                                   +---utils
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦   ¦   +---pngs
+¦   ¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   +---resValues
+¦   ¦   ¦   ¦       +---debug
+¦   ¦   ¦   ¦       +---release
+¦   ¦   ¦   +---source
+¦   ¦   ¦       +---buildConfig
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           ¦   +---io
+¦   ¦   ¦           ¦       +---flutter
+¦   ¦   ¦           ¦           +---plugins
+¦   ¦   ¦           ¦               +---firebase
+¦   ¦   ¦           ¦                   +---firestore
+¦   ¦   ¦           +---release
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---firestore
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---compileDebugLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦   ¦                           +---firestore
+¦   ¦   ¦   ¦   ¦                               +---streamhandler
+¦   ¦   ¦   ¦   ¦                               +---utils
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   ¦                           +---firebase
+¦   ¦   ¦   ¦                               +---firestore
+¦   ¦   ¦   ¦                                   +---streamhandler
+¦   ¦   ¦   ¦                                   +---utils
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---color
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-anydpi-v21
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-ldpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---raw
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦                           +---firestore
+¦   ¦   ¦   ¦                               +---streamhandler
+¦   ¦   ¦   ¦                               +---utils
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---firebase_auth
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---f0e2f9205d4f3b87c22bb63b973cdaf5
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---auth
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦   ¦   +---pngs
+¦   ¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   +---resValues
+¦   ¦   ¦   ¦       +---debug
+¦   ¦   ¦   ¦       +---release
+¦   ¦   ¦   +---source
+¦   ¦   ¦       +---buildConfig
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           ¦   +---io
+¦   ¦   ¦           ¦       +---flutter
+¦   ¦   ¦           ¦           +---plugins
+¦   ¦   ¦           ¦               +---firebase
+¦   ¦   ¦           ¦                   +---auth
+¦   ¦   ¦           +---release
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---auth
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---compileDebugLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-watch-v20
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦   ¦                           +---auth
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   ¦                           +---firebase
+¦   ¦   ¦   ¦                               +---auth
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---color
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-anydpi-v21
+¦   ¦   ¦   ¦           +---drawable-anydpi-v24
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-ldpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-watch-v20
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---raw
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-watch-v20
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   ¦           +---xml
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦                           +---auth
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---firebase_core
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---3695a3e50a7ab68cd65b42af2e421d72
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---core
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦   ¦   +---pngs
+¦   ¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   +---resValues
+¦   ¦   ¦   ¦       +---debug
+¦   ¦   ¦   ¦       +---release
+¦   ¦   ¦   +---source
+¦   ¦   ¦       +---buildConfig
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           ¦   +---io
+¦   ¦   ¦           ¦       +---flutter
+¦   ¦   ¦           ¦           +---plugins
+¦   ¦   ¦           ¦               +---firebase
+¦   ¦   ¦           ¦                   +---core
+¦   ¦   ¦           +---release
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---firebase
+¦   ¦   ¦                               +---core
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugLibraryResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦   ¦                           +---core
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   ¦                           +---firebase
+¦   ¦   ¦   ¦                               +---core
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦       +---maven.google
+¦   ¦   ¦   ¦       ¦   +---androidx
+¦   ¦   ¦   ¦       ¦   ¦   +---annotation
+¦   ¦   ¦   ¦       ¦   +---com
+¦   ¦   ¦   ¦       ¦       +---android
+¦   ¦   ¦   ¦       ¦           +---tools
+¦   ¦   ¦   ¦       ¦               +---build
+¦   ¦   ¦   ¦       +---sdk_index
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-anydpi-v21
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-ldpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---raw
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦                       +---firebase
+¦   ¦   ¦   ¦                           +---core
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---flutter_plugin_android_lifecycle
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---7f0cce528003c9a0cf6a3be0b072f423
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---embedding
+¦   ¦   ¦                       ¦   +---engine
+¦   ¦   ¦                       ¦       +---plugins
+¦   ¦   ¦                       ¦           +---lifecycle
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---flutter_plugin_android_lifecycle
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦       +---pngs
+¦   ¦   ¦       ¦   +---debug
+¦   ¦   ¦       ¦   +---release
+¦   ¦   ¦       +---resValues
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           +---release
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugLibraryResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---consumer_proguard_dir
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---exportReleaseConsumerProguardFiles
+¦   ¦   ¦   ¦           +---lib0
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---embedding
+¦   ¦   ¦   ¦   ¦                   ¦   +---engine
+¦   ¦   ¦   ¦   ¦                   ¦       +---plugins
+¦   ¦   ¦   ¦   ¦                   ¦           +---lifecycle
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   ¦                       +---flutter_plugin_android_lifecycle
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---embedding
+¦   ¦   ¦   ¦                       ¦   +---engine
+¦   ¦   ¦   ¦                       ¦       +---plugins
+¦   ¦   ¦   ¦                       ¦           +---lifecycle
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   ¦                           +---flutter_plugin_android_lifecycle
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦       +---maven.google
+¦   ¦   ¦   ¦       ¦   +---androidx
+¦   ¦   ¦   ¦       ¦   ¦   +---annotation
+¦   ¦   ¦   ¦       ¦   +---com
+¦   ¦   ¦   ¦       ¦       +---android
+¦   ¦   ¦   ¦       ¦           +---tools
+¦   ¦   ¦   ¦       ¦               +---build
+¦   ¦   ¦   ¦       +---sdk_index
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_consumer_proguard_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugConsumerProguardFiles
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseConsumerProguardFiles
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-anydpi-v21
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-ldpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦                   +---embedding
+¦   ¦   ¦   ¦                   ¦   +---engine
+¦   ¦   ¦   ¦                   ¦       +---plugins
+¦   ¦   ¦   ¦                   ¦           +---lifecycle
+¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦                       +---flutter_plugin_android_lifecycle
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---geolocator_android
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---82e988bd9d5f5be40aedd033215a2357
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---com
+¦   ¦   ¦                   +---baseflow
+¦   ¦   ¦                       +---geolocator
+¦   ¦   ¦                           +---errors
+¦   ¦   ¦                           +---location
+¦   ¦   ¦                           +---permission
+¦   ¦   ¦                           +---utils
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦       +---pngs
+¦   ¦   ¦       ¦   +---debug
+¦   ¦   ¦       ¦   +---release
+¦   ¦   ¦       +---resValues
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           +---release
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---compileDebugLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---com
+¦   ¦   ¦   ¦   ¦               +---baseflow
+¦   ¦   ¦   ¦   ¦                   +---geolocator
+¦   ¦   ¦   ¦   ¦                       +---errors
+¦   ¦   ¦   ¦   ¦                       +---location
+¦   ¦   ¦   ¦   ¦                       +---permission
+¦   ¦   ¦   ¦   ¦                       +---utils
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---com
+¦   ¦   ¦   ¦                   +---baseflow
+¦   ¦   ¦   ¦                       +---geolocator
+¦   ¦   ¦   ¦                           +---errors
+¦   ¦   ¦   ¦                           +---location
+¦   ¦   ¦   ¦                           +---permission
+¦   ¦   ¦   ¦                           +---utils
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦       +---maven.google
+¦   ¦   ¦   ¦       ¦   +---androidx
+¦   ¦   ¦   ¦       ¦   ¦   +---core
+¦   ¦   ¦   ¦       ¦   +---com
+¦   ¦   ¦   ¦       ¦       +---android
+¦   ¦   ¦   ¦       ¦       ¦   +---tools
+¦   ¦   ¦   ¦       ¦       ¦       +---build
+¦   ¦   ¦   ¦       ¦       +---google
+¦   ¦   ¦   ¦       ¦           +---android
+¦   ¦   ¦   ¦       ¦               +---gms
+¦   ¦   ¦   ¦       +---sdk_index
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---color
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---com
+¦   ¦   ¦   ¦               +---baseflow
+¦   ¦   ¦   ¦                   +---geolocator
+¦   ¦   ¦   ¦                       +---errors
+¦   ¦   ¦   ¦                       +---location
+¦   ¦   ¦   ¦                       +---permission
+¦   ¦   ¦   ¦                       +---utils
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---image_picker_android
+¦   ¦   +---.transforms
+¦   ¦   ¦   +---808866d4689032526e561fd22122974b
+¦   ¦   ¦       +---transformed
+¦   ¦   ¦           +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦               +---io
+¦   ¦   ¦                   +---flutter
+¦   ¦   ¦                       +---plugins
+¦   ¦   ¦                           +---imagepicker
+¦   ¦   +---generated
+¦   ¦   ¦   +---ap_generated_sources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   +---res
+¦   ¦   ¦       +---pngs
+¦   ¦   ¦       ¦   +---debug
+¦   ¦   ¦       ¦   +---release
+¦   ¦   ¦       +---resValues
+¦   ¦   ¦           +---debug
+¦   ¦   ¦           +---release
+¦   ¦   +---intermediates
+¦   ¦   ¦   +---aapt_friendly_merged_manifests
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   ¦       +---aapt
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   ¦           +---aapt
+¦   ¦   ¦   +---aar_libs_directory
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   ¦       +---libs
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   ¦           +---libs
+¦   ¦   ¦   +---aar_main_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---syncDebugLibJars
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---syncReleaseLibJars
+¦   ¦   ¦   +---aar_metadata
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---writeDebugAarMetadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseAarMetadata
+¦   ¦   ¦   +---annotations_typedef_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotations_zip
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDebugAnnotations
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractReleaseAnnotations
+¦   ¦   ¦   +---annotation_processor_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---javaPreCompileDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---javaPreCompileRelease
+¦   ¦   ¦   +---compiled_local_resources
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---compileDebugLibraryResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---compile_library_classes_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibCompileToJarRelease
+¦   ¦   ¦   +---compile_r_class_jar
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---compile_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---data_binding_layout_info_type_merge
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---data_binding_layout_info_type_package
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---default_proguard_files
+¦   ¦   ¦   ¦   +---global
+¦   ¦   ¦   +---full_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---createFullJarRelease
+¦   ¦   ¦   +---incremental
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---debug-mergeJavaRes
+¦   ¦   ¦   ¦   ¦   +---zip-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦   +---mergeReleaseShaders
+¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   +---packageReleaseAssets
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦   ¦   +---mergeReleaseResources
+¦   ¦   ¦   ¦   ¦   ¦   +---merged.dir
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-af
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-am
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-as
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-az
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-be
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-da
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-de
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-el
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-et
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-in
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-is
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-it
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-km
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-my
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-or
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-si
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-te
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-th
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦   ¦   ¦   ¦   ¦   ¦   +---stripped.dir
+¦   ¦   ¦   ¦   ¦   +---packageReleaseResources
+¦   ¦   ¦   ¦   ¦       +---merged.dir
+¦   ¦   ¦   ¦   ¦       +---stripped.dir
+¦   ¦   ¦   ¦   +---release-mergeJavaRes
+¦   ¦   ¦   ¦       +---zip-cache
+¦   ¦   ¦   +---javac
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦   ¦   ¦   ¦   ¦       +---classes
+¦   ¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦   ¦                       +---imagepicker
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---compileReleaseJavaWithJavac
+¦   ¦   ¦   ¦           +---classes
+¦   ¦   ¦   ¦               +---io
+¦   ¦   ¦   ¦                   +---flutter
+¦   ¦   ¦   ¦                       +---plugins
+¦   ¦   ¦   ¦                           +---imagepicker
+¦   ¦   ¦   +---library_and_local_jars_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---library_assets
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugAssets
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseAssets
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---library_jni
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦   ¦   ¦   ¦   ¦       +---jni
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦   ¦   ¦   ¦           +---jni
+¦   ¦   ¦   +---lint-cache
+¦   ¦   ¦   ¦   +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦       +---maven.google
+¦   ¦   ¦   ¦       ¦   +---androidx
+¦   ¦   ¦   ¦       ¦   ¦   +---activity
+¦   ¦   ¦   ¦       ¦   ¦   +---annotation
+¦   ¦   ¦   ¦       ¦   ¦   +---core
+¦   ¦   ¦   ¦       ¦   ¦   +---exifinterface
+¦   ¦   ¦   ¦       ¦   ¦   +---test
+¦   ¦   ¦   ¦       ¦   +---com
+¦   ¦   ¦   ¦       ¦       +---android
+¦   ¦   ¦   ¦       ¦           +---tools
+¦   ¦   ¦   ¦       ¦               +---build
+¦   ¦   ¦   ¦       +---sdk_index
+¦   ¦   ¦   +---lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintModel
+¦   ¦   ¦   +---lint_model_metadata
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---writeReleaseLintModelMetadata
+¦   ¦   ¦   +---lint_vital_lint_model
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseLintVitalModel
+¦   ¦   ¦   +---lint_vital_partial_results
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---lintVitalAnalyzeRelease
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---local_aar_for_lint
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   +---local_only_symbol_list
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---parseDebugLocalResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---parseReleaseLocalResources
+¦   ¦   ¦   +---manifest_merge_blame_file
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_java_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJavaResource
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJavaResource
+¦   ¦   ¦   +---merged_jni_libs
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseJniLibFolders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---merged_manifest
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---processDebugManifest
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---processReleaseManifest
+¦   ¦   ¦   +---merged_res
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---anim-v21
+¦   ¦   ¦   ¦           +---animator
+¦   ¦   ¦   ¦           +---drawable
+¦   ¦   ¦   ¦           +---drawable-anydpi-v21
+¦   ¦   ¦   ¦           +---drawable-hdpi-v4
+¦   ¦   ¦   ¦           +---drawable-ldpi-v4
+¦   ¦   ¦   ¦           +---drawable-mdpi-v4
+¦   ¦   ¦   ¦           +---drawable-v21
+¦   ¦   ¦   ¦           +---drawable-xhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxhdpi-v4
+¦   ¦   ¦   ¦           +---drawable-xxxhdpi-v4
+¦   ¦   ¦   ¦           +---layout
+¦   ¦   ¦   ¦           +---layout-v21
+¦   ¦   ¦   ¦           +---values
+¦   ¦   ¦   ¦           +---values-af
+¦   ¦   ¦   ¦           +---values-am
+¦   ¦   ¦   ¦           +---values-ar
+¦   ¦   ¦   ¦           +---values-as
+¦   ¦   ¦   ¦           +---values-az
+¦   ¦   ¦   ¦           +---values-b+sr+Latn
+¦   ¦   ¦   ¦           +---values-be
+¦   ¦   ¦   ¦           +---values-bg
+¦   ¦   ¦   ¦           +---values-bn
+¦   ¦   ¦   ¦           +---values-bs
+¦   ¦   ¦   ¦           +---values-ca
+¦   ¦   ¦   ¦           +---values-cs
+¦   ¦   ¦   ¦           +---values-da
+¦   ¦   ¦   ¦           +---values-de
+¦   ¦   ¦   ¦           +---values-el
+¦   ¦   ¦   ¦           +---values-en-rAU
+¦   ¦   ¦   ¦           +---values-en-rCA
+¦   ¦   ¦   ¦           +---values-en-rGB
+¦   ¦   ¦   ¦           +---values-en-rIN
+¦   ¦   ¦   ¦           +---values-en-rXC
+¦   ¦   ¦   ¦           +---values-es
+¦   ¦   ¦   ¦           +---values-es-rUS
+¦   ¦   ¦   ¦           +---values-et
+¦   ¦   ¦   ¦           +---values-eu
+¦   ¦   ¦   ¦           +---values-fa
+¦   ¦   ¦   ¦           +---values-fi
+¦   ¦   ¦   ¦           +---values-fr
+¦   ¦   ¦   ¦           +---values-fr-rCA
+¦   ¦   ¦   ¦           +---values-gl
+¦   ¦   ¦   ¦           +---values-gu
+¦   ¦   ¦   ¦           +---values-hi
+¦   ¦   ¦   ¦           +---values-hr
+¦   ¦   ¦   ¦           +---values-hu
+¦   ¦   ¦   ¦           +---values-hy
+¦   ¦   ¦   ¦           +---values-in
+¦   ¦   ¦   ¦           +---values-is
+¦   ¦   ¦   ¦           +---values-it
+¦   ¦   ¦   ¦           +---values-iw
+¦   ¦   ¦   ¦           +---values-ja
+¦   ¦   ¦   ¦           +---values-ka
+¦   ¦   ¦   ¦           +---values-kk
+¦   ¦   ¦   ¦           +---values-km
+¦   ¦   ¦   ¦           +---values-kn
+¦   ¦   ¦   ¦           +---values-ko
+¦   ¦   ¦   ¦           +---values-ky
+¦   ¦   ¦   ¦           +---values-lo
+¦   ¦   ¦   ¦           +---values-lt
+¦   ¦   ¦   ¦           +---values-lv
+¦   ¦   ¦   ¦           +---values-mk
+¦   ¦   ¦   ¦           +---values-ml
+¦   ¦   ¦   ¦           +---values-mn
+¦   ¦   ¦   ¦           +---values-mr
+¦   ¦   ¦   ¦           +---values-ms
+¦   ¦   ¦   ¦           +---values-my
+¦   ¦   ¦   ¦           +---values-nb
+¦   ¦   ¦   ¦           +---values-ne
+¦   ¦   ¦   ¦           +---values-nl
+¦   ¦   ¦   ¦           +---values-or
+¦   ¦   ¦   ¦           +---values-pa
+¦   ¦   ¦   ¦           +---values-pl
+¦   ¦   ¦   ¦           +---values-pt
+¦   ¦   ¦   ¦           +---values-pt-rBR
+¦   ¦   ¦   ¦           +---values-pt-rPT
+¦   ¦   ¦   ¦           +---values-ro
+¦   ¦   ¦   ¦           +---values-ru
+¦   ¦   ¦   ¦           +---values-si
+¦   ¦   ¦   ¦           +---values-sk
+¦   ¦   ¦   ¦           +---values-sl
+¦   ¦   ¦   ¦           +---values-sq
+¦   ¦   ¦   ¦           +---values-sr
+¦   ¦   ¦   ¦           +---values-sv
+¦   ¦   ¦   ¦           +---values-sw
+¦   ¦   ¦   ¦           +---values-ta
+¦   ¦   ¦   ¦           +---values-te
+¦   ¦   ¦   ¦           +---values-th
+¦   ¦   ¦   ¦           +---values-tl
+¦   ¦   ¦   ¦           +---values-tr
+¦   ¦   ¦   ¦           +---values-uk
+¦   ¦   ¦   ¦           +---values-ur
+¦   ¦   ¦   ¦           +---values-uz
+¦   ¦   ¦   ¦           +---values-v21
+¦   ¦   ¦   ¦           +---values-vi
+¦   ¦   ¦   ¦           +---values-zh-rCN
+¦   ¦   ¦   ¦           +---values-zh-rHK
+¦   ¦   ¦   ¦           +---values-zh-rTW
+¦   ¦   ¦   ¦           +---values-zu
+¦   ¦   ¦   ¦           +---xml
+¦   ¦   ¦   +---merged_res_blame_folder
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseResources
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   ¦               +---multi-v2
+¦   ¦   ¦   ¦               +---single
+¦   ¦   ¦   +---merged_shaders
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---mergeDebugShaders
+¦   ¦   ¦   ¦   ¦       +---out
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mergeReleaseShaders
+¦   ¦   ¦   ¦           +---out
+¦   ¦   ¦   +---navigation_json
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---extractDeepLinksDebug
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---extractDeepLinksRelease
+¦   ¦   ¦   +---nested_resources_validation_report
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseResources
+¦   ¦   ¦   +---packaged_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   ¦       +---xml
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   ¦           +---xml
+¦   ¦   ¦   +---public_res
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---packageDebugResources
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---packageReleaseResources
+¦   ¦   ¦   +---runtime_library_classes_dir
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦   ¦   ¦   ¦           +---io
+¦   ¦   ¦   ¦               +---flutter
+¦   ¦   ¦   ¦                   +---plugins
+¦   ¦   ¦   ¦                       +---imagepicker
+¦   ¦   ¦   +---runtime_library_classes_jar
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦   ¦   ¦   +---source_set_path_map
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---mapReleaseSourceSetPaths
+¦   ¦   ¦   +---symbol_list_with_package_name
+¦   ¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   ¦   +---generateDebugRFile
+¦   ¦   ¦   ¦   +---release
+¦   ¦   ¦   ¦       +---generateReleaseRFile
+¦   ¦   ¦   +---verified_library_resources
+¦   ¦   ¦       +---release
+¦   ¦   ¦           +---verifyReleaseResources
+¦   ¦   ¦               +---compiled
+¦   ¦   +---outputs
+¦   ¦   ¦   +---aar
+¦   ¦   ¦   +---logs
+¦   ¦   +---tmp
+¦   ¦       +---compileDebugJavaWithJavac
+¦   ¦       +---compileReleaseJavaWithJavac
+¦   +---native_assets
+¦   ¦   +---android
+¦   +---url_launcher_android
+¦       +---.transforms
+¦       ¦   +---830f3b72812aaa6bfbc38d16d0c3e5d3
+¦       ¦       +---transformed
+¦       ¦           +---bundleLibRuntimeToDirDebug
+¦       ¦               +---io
+¦       ¦                   +---flutter
+¦       ¦                       +---plugins
+¦       ¦                           +---urllauncher
+¦       +---generated
+¦       ¦   +---ap_generated_sources
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---out
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---out
+¦       ¦   +---res
+¦       ¦   ¦   +---pngs
+¦       ¦   ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---release
+¦       ¦   ¦   +---resValues
+¦       ¦   ¦       +---debug
+¦       ¦   ¦       +---release
+¦       ¦   +---source
+¦       ¦       +---buildConfig
+¦       ¦           +---debug
+¦       ¦           ¦   +---io
+¦       ¦           ¦       +---flutter
+¦       ¦           ¦           +---plugins
+¦       ¦           ¦               +---urllauncher
+¦       ¦           +---release
+¦       ¦               +---io
+¦       ¦                   +---flutter
+¦       ¦                       +---plugins
+¦       ¦                           +---urllauncher
+¦       +---intermediates
+¦       ¦   +---aapt_friendly_merged_manifests
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---processDebugManifest
+¦       ¦   ¦   ¦       +---aapt
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---processReleaseManifest
+¦       ¦   ¦           +---aapt
+¦       ¦   +---aar_libs_directory
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---syncDebugLibJars
+¦       ¦   ¦   ¦       +---libs
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---syncReleaseLibJars
+¦       ¦   ¦           +---libs
+¦       ¦   +---aar_main_jar
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---syncDebugLibJars
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---syncReleaseLibJars
+¦       ¦   +---aar_metadata
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---writeDebugAarMetadata
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---writeReleaseAarMetadata
+¦       ¦   +---annotations_typedef_file
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---extractDebugAnnotations
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---extractReleaseAnnotations
+¦       ¦   +---annotations_zip
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---extractDebugAnnotations
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---extractReleaseAnnotations
+¦       ¦   +---annotation_processor_list
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---javaPreCompileDebug
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---javaPreCompileRelease
+¦       ¦   +---compiled_local_resources
+¦       ¦   ¦   +---debug
+¦       ¦   ¦       +---compileDebugLibraryResources
+¦       ¦   ¦           +---out
+¦       ¦   +---compile_library_classes_jar
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---bundleLibCompileToJarDebug
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---bundleLibCompileToJarRelease
+¦       ¦   +---compile_r_class_jar
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---generateDebugRFile
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseRFile
+¦       ¦   +---compile_symbol_list
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---generateDebugRFile
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseRFile
+¦       ¦   +---data_binding_layout_info_type_merge
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseResources
+¦       ¦   ¦           +---out
+¦       ¦   +---data_binding_layout_info_type_package
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---packageDebugResources
+¦       ¦   ¦   ¦       +---out
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---packageReleaseResources
+¦       ¦   ¦           +---out
+¦       ¦   +---default_proguard_files
+¦       ¦   ¦   +---global
+¦       ¦   +---full_jar
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---createFullJarRelease
+¦       ¦   +---incremental
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---packageDebugResources
+¦       ¦   ¦   ¦       +---merged.dir
+¦       ¦   ¦   ¦       +---stripped.dir
+¦       ¦   ¦   +---debug-mergeJavaRes
+¦       ¦   ¦   ¦   +---zip-cache
+¦       ¦   ¦   +---lintVitalAnalyzeRelease
+¦       ¦   ¦   +---mergeDebugJniLibFolders
+¦       ¦   ¦   +---mergeDebugShaders
+¦       ¦   ¦   +---mergeReleaseJniLibFolders
+¦       ¦   ¦   +---mergeReleaseShaders
+¦       ¦   ¦   +---packageDebugAssets
+¦       ¦   ¦   +---packageReleaseAssets
+¦       ¦   ¦   +---release
+¦       ¦   ¦   ¦   +---mergeReleaseResources
+¦       ¦   ¦   ¦   ¦   +---merged.dir
+¦       ¦   ¦   ¦   ¦   ¦   +---values
+¦       ¦   ¦   ¦   ¦   ¦   +---values-af
+¦       ¦   ¦   ¦   ¦   ¦   +---values-am
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ar
+¦       ¦   ¦   ¦   ¦   ¦   +---values-as
+¦       ¦   ¦   ¦   ¦   ¦   +---values-az
+¦       ¦   ¦   ¦   ¦   ¦   +---values-b+sr+Latn
+¦       ¦   ¦   ¦   ¦   ¦   +---values-be
+¦       ¦   ¦   ¦   ¦   ¦   +---values-bg
+¦       ¦   ¦   ¦   ¦   ¦   +---values-bn
+¦       ¦   ¦   ¦   ¦   ¦   +---values-bs
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ca
+¦       ¦   ¦   ¦   ¦   ¦   +---values-cs
+¦       ¦   ¦   ¦   ¦   ¦   +---values-da
+¦       ¦   ¦   ¦   ¦   ¦   +---values-de
+¦       ¦   ¦   ¦   ¦   ¦   +---values-el
+¦       ¦   ¦   ¦   ¦   ¦   +---values-en-rAU
+¦       ¦   ¦   ¦   ¦   ¦   +---values-en-rCA
+¦       ¦   ¦   ¦   ¦   ¦   +---values-en-rGB
+¦       ¦   ¦   ¦   ¦   ¦   +---values-en-rIN
+¦       ¦   ¦   ¦   ¦   ¦   +---values-en-rXC
+¦       ¦   ¦   ¦   ¦   ¦   +---values-es
+¦       ¦   ¦   ¦   ¦   ¦   +---values-es-rUS
+¦       ¦   ¦   ¦   ¦   ¦   +---values-et
+¦       ¦   ¦   ¦   ¦   ¦   +---values-eu
+¦       ¦   ¦   ¦   ¦   ¦   +---values-fa
+¦       ¦   ¦   ¦   ¦   ¦   +---values-fi
+¦       ¦   ¦   ¦   ¦   ¦   +---values-fr
+¦       ¦   ¦   ¦   ¦   ¦   +---values-fr-rCA
+¦       ¦   ¦   ¦   ¦   ¦   +---values-gl
+¦       ¦   ¦   ¦   ¦   ¦   +---values-gu
+¦       ¦   ¦   ¦   ¦   ¦   +---values-hi
+¦       ¦   ¦   ¦   ¦   ¦   +---values-hr
+¦       ¦   ¦   ¦   ¦   ¦   +---values-hu
+¦       ¦   ¦   ¦   ¦   ¦   +---values-hy
+¦       ¦   ¦   ¦   ¦   ¦   +---values-in
+¦       ¦   ¦   ¦   ¦   ¦   +---values-is
+¦       ¦   ¦   ¦   ¦   ¦   +---values-it
+¦       ¦   ¦   ¦   ¦   ¦   +---values-iw
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ja
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ka
+¦       ¦   ¦   ¦   ¦   ¦   +---values-kk
+¦       ¦   ¦   ¦   ¦   ¦   +---values-km
+¦       ¦   ¦   ¦   ¦   ¦   +---values-kn
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ko
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ky
+¦       ¦   ¦   ¦   ¦   ¦   +---values-lo
+¦       ¦   ¦   ¦   ¦   ¦   +---values-lt
+¦       ¦   ¦   ¦   ¦   ¦   +---values-lv
+¦       ¦   ¦   ¦   ¦   ¦   +---values-mk
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ml
+¦       ¦   ¦   ¦   ¦   ¦   +---values-mn
+¦       ¦   ¦   ¦   ¦   ¦   +---values-mr
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ms
+¦       ¦   ¦   ¦   ¦   ¦   +---values-my
+¦       ¦   ¦   ¦   ¦   ¦   +---values-nb
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ne
+¦       ¦   ¦   ¦   ¦   ¦   +---values-nl
+¦       ¦   ¦   ¦   ¦   ¦   +---values-or
+¦       ¦   ¦   ¦   ¦   ¦   +---values-pa
+¦       ¦   ¦   ¦   ¦   ¦   +---values-pl
+¦       ¦   ¦   ¦   ¦   ¦   +---values-pt
+¦       ¦   ¦   ¦   ¦   ¦   +---values-pt-rBR
+¦       ¦   ¦   ¦   ¦   ¦   +---values-pt-rPT
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ro
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ru
+¦       ¦   ¦   ¦   ¦   ¦   +---values-si
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sk
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sl
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sq
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sr
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sv
+¦       ¦   ¦   ¦   ¦   ¦   +---values-sw
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ta
+¦       ¦   ¦   ¦   ¦   ¦   +---values-te
+¦       ¦   ¦   ¦   ¦   ¦   +---values-th
+¦       ¦   ¦   ¦   ¦   ¦   +---values-tl
+¦       ¦   ¦   ¦   ¦   ¦   +---values-tr
+¦       ¦   ¦   ¦   ¦   ¦   +---values-uk
+¦       ¦   ¦   ¦   ¦   ¦   +---values-ur
+¦       ¦   ¦   ¦   ¦   ¦   +---values-uz
+¦       ¦   ¦   ¦   ¦   ¦   +---values-v21
+¦       ¦   ¦   ¦   ¦   ¦   +---values-vi
+¦       ¦   ¦   ¦   ¦   ¦   +---values-zh-rCN
+¦       ¦   ¦   ¦   ¦   ¦   +---values-zh-rHK
+¦       ¦   ¦   ¦   ¦   ¦   +---values-zh-rTW
+¦       ¦   ¦   ¦   ¦   ¦   +---values-zu
+¦       ¦   ¦   ¦   ¦   +---stripped.dir
+¦       ¦   ¦   ¦   +---packageReleaseResources
+¦       ¦   ¦   ¦       +---merged.dir
+¦       ¦   ¦   ¦       +---stripped.dir
+¦       ¦   ¦   +---release-mergeJavaRes
+¦       ¦   ¦       +---zip-cache
+¦       ¦   +---javac
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---compileDebugJavaWithJavac
+¦       ¦   ¦   ¦       +---classes
+¦       ¦   ¦   ¦           +---io
+¦       ¦   ¦   ¦               +---flutter
+¦       ¦   ¦   ¦                   +---plugins
+¦       ¦   ¦   ¦                       +---urllauncher
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---compileReleaseJavaWithJavac
+¦       ¦   ¦           +---classes
+¦       ¦   ¦               +---io
+¦       ¦   ¦                   +---flutter
+¦       ¦   ¦                       +---plugins
+¦       ¦   ¦                           +---urllauncher
+¦       ¦   +---library_and_local_jars_jni
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---copyDebugJniLibsProjectAndLocalJars
+¦       ¦   ¦   ¦       +---jni
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---copyReleaseJniLibsProjectAndLocalJars
+¦       ¦   ¦           +---jni
+¦       ¦   +---library_assets
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---packageDebugAssets
+¦       ¦   ¦   ¦       +---out
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---packageReleaseAssets
+¦       ¦   ¦           +---out
+¦       ¦   +---library_jni
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---copyDebugJniLibsProjectOnly
+¦       ¦   ¦   ¦       +---jni
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---copyReleaseJniLibsProjectOnly
+¦       ¦   ¦           +---jni
+¦       ¦   +---lint-cache
+¦       ¦   ¦   +---lintVitalAnalyzeRelease
+¦       ¦   ¦       +---maven.google
+¦       ¦   ¦       ¦   +---androidx
+¦       ¦   ¦       ¦   ¦   +---annotation
+¦       ¦   ¦       ¦   ¦   +---browser
+¦       ¦   ¦       ¦   ¦   +---core
+¦       ¦   ¦       ¦   ¦   +---test
+¦       ¦   ¦       ¦   +---com
+¦       ¦   ¦       ¦       +---android
+¦       ¦   ¦       ¦           +---tools
+¦       ¦   ¦       ¦               +---build
+¦       ¦   ¦       +---sdk_index
+¦       ¦   +---lint_model
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseLintModel
+¦       ¦   +---lint_model_metadata
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---writeReleaseLintModelMetadata
+¦       ¦   +---lint_vital_lint_model
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseLintVitalModel
+¦       ¦   +---lint_vital_partial_results
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---lintVitalAnalyzeRelease
+¦       ¦   ¦           +---out
+¦       ¦   +---local_aar_for_lint
+¦       ¦   ¦   +---release
+¦       ¦   +---local_only_symbol_list
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---parseDebugLocalResources
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---parseReleaseLocalResources
+¦       ¦   +---manifest_merge_blame_file
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---processDebugManifest
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---processReleaseManifest
+¦       ¦   +---merged_java_res
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---mergeDebugJavaResource
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseJavaResource
+¦       ¦   +---merged_jni_libs
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---mergeDebugJniLibFolders
+¦       ¦   ¦   ¦       +---out
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseJniLibFolders
+¦       ¦   ¦           +---out
+¦       ¦   +---merged_manifest
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---processDebugManifest
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---processReleaseManifest
+¦       ¦   +---merged_res
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseResources
+¦       ¦   ¦           +---anim-v21
+¦       ¦   ¦           +---animator
+¦       ¦   ¦           +---drawable
+¦       ¦   ¦           +---drawable-anydpi-v21
+¦       ¦   ¦           +---drawable-hdpi-v4
+¦       ¦   ¦           +---drawable-ldpi-v4
+¦       ¦   ¦           +---drawable-mdpi-v4
+¦       ¦   ¦           +---drawable-v21
+¦       ¦   ¦           +---drawable-xhdpi-v4
+¦       ¦   ¦           +---drawable-xxhdpi-v4
+¦       ¦   ¦           +---drawable-xxxhdpi-v4
+¦       ¦   ¦           +---layout
+¦       ¦   ¦           +---layout-v21
+¦       ¦   ¦           +---values
+¦       ¦   ¦           +---values-af
+¦       ¦   ¦           +---values-am
+¦       ¦   ¦           +---values-ar
+¦       ¦   ¦           +---values-as
+¦       ¦   ¦           +---values-az
+¦       ¦   ¦           +---values-b+sr+Latn
+¦       ¦   ¦           +---values-be
+¦       ¦   ¦           +---values-bg
+¦       ¦   ¦           +---values-bn
+¦       ¦   ¦           +---values-bs
+¦       ¦   ¦           +---values-ca
+¦       ¦   ¦           +---values-cs
+¦       ¦   ¦           +---values-da
+¦       ¦   ¦           +---values-de
+¦       ¦   ¦           +---values-el
+¦       ¦   ¦           +---values-en-rAU
+¦       ¦   ¦           +---values-en-rCA
+¦       ¦   ¦           +---values-en-rGB
+¦       ¦   ¦           +---values-en-rIN
+¦       ¦   ¦           +---values-en-rXC
+¦       ¦   ¦           +---values-es
+¦       ¦   ¦           +---values-es-rUS
+¦       ¦   ¦           +---values-et
+¦       ¦   ¦           +---values-eu
+¦       ¦   ¦           +---values-fa
+¦       ¦   ¦           +---values-fi
+¦       ¦   ¦           +---values-fr
+¦       ¦   ¦           +---values-fr-rCA
+¦       ¦   ¦           +---values-gl
+¦       ¦   ¦           +---values-gu
+¦       ¦   ¦           +---values-hi
+¦       ¦   ¦           +---values-hr
+¦       ¦   ¦           +---values-hu
+¦       ¦   ¦           +---values-hy
+¦       ¦   ¦           +---values-in
+¦       ¦   ¦           +---values-is
+¦       ¦   ¦           +---values-it
+¦       ¦   ¦           +---values-iw
+¦       ¦   ¦           +---values-ja
+¦       ¦   ¦           +---values-ka
+¦       ¦   ¦           +---values-kk
+¦       ¦   ¦           +---values-km
+¦       ¦   ¦           +---values-kn
+¦       ¦   ¦           +---values-ko
+¦       ¦   ¦           +---values-ky
+¦       ¦   ¦           +---values-lo
+¦       ¦   ¦           +---values-lt
+¦       ¦   ¦           +---values-lv
+¦       ¦   ¦           +---values-mk
+¦       ¦   ¦           +---values-ml
+¦       ¦   ¦           +---values-mn
+¦       ¦   ¦           +---values-mr
+¦       ¦   ¦           +---values-ms
+¦       ¦   ¦           +---values-my
+¦       ¦   ¦           +---values-nb
+¦       ¦   ¦           +---values-ne
+¦       ¦   ¦           +---values-nl
+¦       ¦   ¦           +---values-or
+¦       ¦   ¦           +---values-pa
+¦       ¦   ¦           +---values-pl
+¦       ¦   ¦           +---values-pt
+¦       ¦   ¦           +---values-pt-rBR
+¦       ¦   ¦           +---values-pt-rPT
+¦       ¦   ¦           +---values-ro
+¦       ¦   ¦           +---values-ru
+¦       ¦   ¦           +---values-si
+¦       ¦   ¦           +---values-sk
+¦       ¦   ¦           +---values-sl
+¦       ¦   ¦           +---values-sq
+¦       ¦   ¦           +---values-sr
+¦       ¦   ¦           +---values-sv
+¦       ¦   ¦           +---values-sw
+¦       ¦   ¦           +---values-ta
+¦       ¦   ¦           +---values-te
+¦       ¦   ¦           +---values-th
+¦       ¦   ¦           +---values-tl
+¦       ¦   ¦           +---values-tr
+¦       ¦   ¦           +---values-uk
+¦       ¦   ¦           +---values-ur
+¦       ¦   ¦           +---values-uz
+¦       ¦   ¦           +---values-v21
+¦       ¦   ¦           +---values-vi
+¦       ¦   ¦           +---values-zh-rCN
+¦       ¦   ¦           +---values-zh-rHK
+¦       ¦   ¦           +---values-zh-rTW
+¦       ¦   ¦           +---values-zu
+¦       ¦   ¦           +---xml
+¦       ¦   +---merged_res_blame_folder
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseResources
+¦       ¦   ¦           +---out
+¦       ¦   ¦               +---multi-v2
+¦       ¦   ¦               +---single
+¦       ¦   +---merged_shaders
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---mergeDebugShaders
+¦       ¦   ¦   ¦       +---out
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mergeReleaseShaders
+¦       ¦   ¦           +---out
+¦       ¦   +---navigation_json
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---extractDeepLinksDebug
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---extractDeepLinksRelease
+¦       ¦   +---nested_resources_validation_report
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---generateDebugResources
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseResources
+¦       ¦   +---packaged_res
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---packageDebugResources
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---packageReleaseResources
+¦       ¦   +---public_res
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---packageDebugResources
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---packageReleaseResources
+¦       ¦   +---runtime_library_classes_dir
+¦       ¦   ¦   +---debug
+¦       ¦   ¦       +---bundleLibRuntimeToDirDebug
+¦       ¦   ¦           +---io
+¦       ¦   ¦               +---flutter
+¦       ¦   ¦                   +---plugins
+¦       ¦   ¦                       +---urllauncher
+¦       ¦   +---runtime_library_classes_jar
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---bundleLibRuntimeToJarRelease
+¦       ¦   +---source_set_path_map
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---mapReleaseSourceSetPaths
+¦       ¦   +---symbol_list_with_package_name
+¦       ¦   ¦   +---debug
+¦       ¦   ¦   ¦   +---generateDebugRFile
+¦       ¦   ¦   +---release
+¦       ¦   ¦       +---generateReleaseRFile
+¦       ¦   +---verified_library_resources
+¦       ¦       +---release
+¦       ¦           +---verifyReleaseResources
+¦       ¦               +---compiled
+¦       +---outputs
+¦       ¦   +---aar
+¦       ¦   +---logs
+¦       +---tmp
+¦           +---compileDebugJavaWithJavac
+¦           +---compileReleaseJavaWithJavac
++---ios
+¦   +---Flutter
+¦   +---Runner
+¦   ¦   +---Assets.xcassets
+¦   ¦   ¦   +---AppIcon.appiconset
+¦   ¦   ¦   +---LaunchImage.imageset
+¦   ¦   +---Base.lproj
+¦   +---Runner.xcodeproj
+¦   ¦   +---project.xcworkspace
+¦   ¦   ¦   +---xcshareddata
+¦   ¦   +---xcshareddata
+¦   ¦       +---xcschemes
+¦   +---Runner.xcworkspace
+¦   ¦   +---xcshareddata
+¦   +---RunnerTests
++---lib
+¦   +---components
+¦   +---custom
+¦   +---others
++---linux
+¦   +---flutter
+¦   +---runner
++---macos
+¦   +---Flutter
+¦   ¦   +---ephemeral
+¦   +---Runner
+¦   ¦   +---Assets.xcassets
+¦   ¦   ¦   +---AppIcon.appiconset
+¦   ¦   +---Base.lproj
+¦   ¦   +---Configs
+¦   +---Runner.xcodeproj
+¦   ¦   +---project.xcworkspace
+¦   ¦   ¦   +---xcshareddata
+¦   ¦   +---xcshareddata
+¦   ¦       +---xcschemes
+¦   +---Runner.xcworkspace
+¦   ¦   +---xcshareddata
+¦   +---RunnerTests
++---web
+¦   +---icons
++---windows
+    +---flutter
+    ¦   +---ephemeral
+    ¦       +---.plugin_symlinks
+    +---runner
+        +---resources

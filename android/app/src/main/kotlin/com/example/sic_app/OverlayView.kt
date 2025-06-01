@@ -90,11 +90,11 @@ class OverlayView(context: Context, attrs: AttributeSet?) : View(context, attrs)
             val inputBuffer = ByteBuffer.allocateDirect(1434 * 4)
             inputBuffer.order(ByteOrder.nativeOrder())
             for (faceLandmark in faceLandmarks) {
-                Log.d("Buddy LandmarksX", faceLandmark.x().toString())
+                // Log.d("Buddy LandmarksX", faceLandmark.x().toString())
                 inputBuffer.putFloat(faceLandmark.x())
-                Log.d("Buddy LandmarksY", faceLandmark.y().toString())
+                // Log.d("Buddy LandmarksY", faceLandmark.y().toString())
                 inputBuffer.putFloat(faceLandmark.y())
-                Log.d("Buddy LandmarksZ", faceLandmark.z().toString())
+                // Log.d("Buddy LandmarksZ", faceLandmark.z().toString())
                 inputBuffer.putFloat(faceLandmark.z())
             }
 

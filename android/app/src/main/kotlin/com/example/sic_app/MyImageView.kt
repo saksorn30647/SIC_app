@@ -23,6 +23,37 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import android.util.Log
+import java.io.File
+import java.io.FileOutputStream
+import java.io.FileInputStream
+import java.nio.ByteBuffer
+
+fun copyAssetToFile(context: Context, assetName: String): String {
+    val file = File(context.filesDir, assetName)
+    if (!file.exists()) {
+        context.assets.open(assetName).use { input ->
+            FileOutputStream(file).use { output ->
+                input.copyTo(output)
+            }
+        }
+    }
+    return file.absolutePath
+}
+
+fun loadTaskFile(context: Context, assetName: String): ByteBuffer {
+    val file = File(context.filesDir, assetName)
+    if (!file.exists()) {
+        context.assets.open(assetName).use { input ->
+            FileOutputStream(file).use { output -> input.copyTo(output) }
+        }
+    }
+
+    val inputStream = FileInputStream(file)
+    val buffer = ByteBuffer.allocate(file.length().toInt())
+    inputStream.channel.read(buffer)
+    buffer.rewind()
+    return buffer
+}
 
 
 class MyImageView(
@@ -36,16 +67,6 @@ class MyImageView(
     private val overlayView: OverlayView = OverlayView(context, null)
     private val imageView: ImageView = ImageView(context)
 
-    private val baseOptionsBuilder = BaseOptions.builder().setModelAssetPath("face_landmarker.task")
-    private val optionsBuilder = 
-        FaceLandmarker.FaceLandmarkerOptions.builder()
-            .setBaseOptions(baseOptionsBuilder.build())
-            .setMinFaceDetectionConfidence(0.5f)
-            .setMinTrackingConfidence(0.5f)
-            .setMinFacePresenceConfidence(0.5f)
-            .setNumFaces(1)
-            .setRunningMode(RunningMode.IMAGE)
-    private val options = optionsBuilder.build()
 
     private lateinit var faceLandmarker: FaceLandmarker
 
@@ -56,11 +77,33 @@ class MyImageView(
     override fun dispose() {}
 
     init {
+        try {
+        val modelBuffer = loadTaskFile(context, "face_landmarker.task")
+        Log.d("-5 ImageView ID", imageView.id.toString())
+        val baseOptionsBuilder = BaseOptions.builder()
+        Log.d("-4 ImageView ID", imageView.id.toString())
+        baseOptionsBuilder.setModelAssetPath("face_landmarker.task")
+        Log.d("-3 ImageView ID", imageView.id.toString())
+        val baseOptions = baseOptionsBuilder.build()
+        Log.d("-2 ImageView ID", imageView.id.toString())
+        val optionsBuilder = FaceLandmarker.FaceLandmarkerOptions.builder()
+            .setBaseOptions(baseOptions)
+            .setMinFaceDetectionConfidence(0.5f)
+            .setMinTrackingConfidence(0.5f)
+            .setMinFacePresenceConfidence(0.5f)
+            .setNumFaces(1)
+            .setRunningMode(RunningMode.IMAGE)
+        Log.d("-1 ImageView ID", imageView.id.toString())
+        val options = optionsBuilder.build()
         Log.d("0 ImageView ID", imageView.id.toString())
 
-        faceLandmarker = FaceLandmarker.createFromOptions(context, options)
+            faceLandmarker = FaceLandmarker.createFromOptions(context, options)
+
 
         Log.d("1 ImageView ID", imageView.id.toString())
+        } catch (e: Exception) {
+            Log.e("FaceLandmarkerInit", "Failed to create FaceLandmarker", e)
+        }
 
         constraintLayout.id = View.generateViewId()
         val layoutParams = ViewGroup.LayoutParams(
