@@ -7,11 +7,11 @@ class MyColor {
   static const green = Color(0xFF0B4741);
   static const danger = Color(0xFFF50000);
 
-  static const pinkPrimary = Color(0xFFEFABA9);
-  static const pinkSecondary = Color(0xFFFFBFBC);
+  static const pinkPrimary = Color(0xFFEE512F);
+  static const pinkSecondary = Color(0xFFDE9B88);
 
-  static const bluePrimary = Color(0xFF7ED7F9);
-  static const blueSecondary = Color(0xFFC5F9FF);
+  static const bluePrimary = Color(0xFF62B5D9);
+  static const blueSecondary = Color(0xFFEEDDEE);
   
   static const squareColor = white;
 }
