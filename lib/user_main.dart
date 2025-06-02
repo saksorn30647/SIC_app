@@ -29,10 +29,17 @@ class _UserMainState extends State<UserMain> {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Content(setAllState: () {
-            print("set all state");
-            setState(() {});
-          }),
+          Padding(
+            padding: const EdgeInsets.only(top: 20.0, left: 20, right: 20),
+            child: WelcomeText(),
+          ),
+
+          Content(
+            setAllState: () {
+              print("set all state");
+              setState(() {});
+            },
+          ),
           Container(
             decoration: BoxDecoration(
               border: Border.fromBorderSide(
@@ -45,12 +52,10 @@ class _UserMainState extends State<UserMain> {
               gradient: LinearGradient(
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
-                colors: IsStateEmergency.isEmergency
-                    ? [MyColor.gray, MyColor.black]
-                    : [
-                      MyColor.pinkSecondary,
-                      MyColor.bluePrimary,
-                    ],
+                colors:
+                    IsStateEmergency.isEmergency
+                        ? [MyColor.gray, MyColor.black]
+                        : [MyColor.pinkSecondary, MyColor.bluePrimary],
                 stops: [0.04, 1.0],
               ),
             ),
@@ -68,41 +73,37 @@ class Content extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(20),
-      child: SingleChildScrollView(
-        child: Column(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            WelcomeText(),
-            ButtonCard(
-              svg: SvgPicture.asset(
-                'assets/face_scan_logo.svg',
-                width: 100,
-                height: 100,
-              ),
-              button: FaceScanButton(),
-              onTap:
-                  () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => ImagePickerScreen(),
-                    ),
-                  ),
-            ),
-            ButtonCard(
-              svg: SvgPicture.asset(
-                'assets/bluetooth_logo.svg',
-                width: 100,
-                height: 100,
-              ),
-              button: BluetoothButton(),
-            ),
-            EmergencyButton(setAllState: setAllState),
-          ],
+    var children = [
+      ButtonCard(
+        svg: SvgPicture.asset(
+          'assets/face_scan_logo.svg',
+          width: 100,
+          height: 100,
         ),
+        button: FaceScanButton(),
+        onTap:
+            () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ImagePickerScreen()),
+            ),
+      ),
+      SizedBox(height: 20),
+      ButtonCard(
+        svg: SvgPicture.asset(
+          'assets/bluetooth_logo.svg',
+          width: 100,
+          height: 100,
+        ),
+        button: BluetoothButton(),
+      ),
+      SizedBox(height: 20),
+      EmergencyButton(setAllState: setAllState),
+    ];
+
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: ListView(children: children),
       ),
     );
   }
@@ -165,8 +166,9 @@ class _WelcomeTextState extends State<WelcomeText> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20),
               child: Text(
-                IsStateEmergency.isEmergency ? "ฉุกเฉิน! ส่งข้อมูลถึงแพทย์" : 
-                'สวัสดีครับ คุณ$nickname',
+                IsStateEmergency.isEmergency
+                    ? "ฉุกเฉิน! ส่งข้อมูลถึงแพทย์"
+                    : 'สวัสดีครับ คุณ$nickname',
                 style: TextStyle(fontSize: 24, color: MyColor.black),
               ),
             ),
@@ -246,7 +248,9 @@ class _EmergencyButtonState extends State<EmergencyButton> {
               PhoneButton(setAllState: widget.setAllState),
               SizedBox(height: 5),
               Text(
-                IsStateEmergency.isEmergency ? "กดเพื่อกลับสู่ปกติ" : "โทร 1669",
+                IsStateEmergency.isEmergency
+                    ? "กดเพื่อกลับสู่ปกติ"
+                    : "โทร 1669",
                 style: TextStyle(fontSize: 24, color: MyColor.black),
               ),
             ],
@@ -375,7 +379,6 @@ class _PhoneButtonState extends State<PhoneButton> {
             });
             widget.setAllState();
           });
-          
         } else {
           IsStateEmergency.setEmergencyState(isEmergency: false);
           print('State emergency ---> not emergency');

@@ -4,10 +4,9 @@ class MyUserInfo {
   static String phoneNumber = '';
   static bool remember = false;
 
-  static setUserInfo({username, password, phoneNumber, remember}) {
+  static setUserInfo({username, password, phoneNumber}) {
     MyUserInfo.username = username;
     MyUserInfo.password = password;
     MyUserInfo.phoneNumber = phoneNumber;
-    MyUserInfo.remember = remember;
   }
 }

@@ -128,9 +128,9 @@ class Form extends StatelessWidget {
                       "ลืมรหัสผ่าน",
                       style: TextStyle(
                         fontSize: 12,
-                        color: MyColor.bluePrimary,
+                        color: MyColor.black.withAlpha(205),
                         decoration: TextDecoration.underline,
-                        decorationColor: MyColor.bluePrimary,
+                        decorationColor: MyColor.black.withAlpha(205),
                       ),
                     ),
                   ),
@@ -139,7 +139,7 @@ class Form extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 12,
                       color: MyColor.black.withAlpha(128),
-                      decorationColor: MyColor.bluePrimary,
+                      decorationColor: MyColor.black.withAlpha(205),
                     ),
                   ),
                   TextButton(
@@ -155,9 +155,9 @@ class Form extends StatelessWidget {
                       "สมัครบัญชีใหม่",
                       style: TextStyle(
                         fontSize: 12,
-                        color: MyColor.bluePrimary,
+                        color: MyColor.black.withAlpha(205),
                         decoration: TextDecoration.underline,
-                        decorationColor: MyColor.bluePrimary,
+                        decorationColor: MyColor.black.withAlpha(205),
                       ),
                     ),
                   ),
@@ -513,12 +513,12 @@ class _AcceptButtonState extends State<AcceptButton> {
         } on FirebaseAuthException catch (e) {
           String errorMessage;
           print("buddy error ${e.code}");
-          // FIX: Channel Error
+          // FIXME: Channel Error
           switch (e.code) {
             case 'user-not-found':
               errorMessage = 'ไม่พบชื่อผู้ใช้นี้';
               break;
-            case 'wrong-password':
+            case 'invalid-credential':
               errorMessage = 'รหัสไม่ถูกต้อง โปรดลองอีกครั้ง';
               break;
             case 'invalid-email':

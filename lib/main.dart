@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/my_user_info.dart';
+import 'package:sic_app/custom/user_key.dart';
 import 'package:sic_app/doctor_main.dart';
 import 'package:sic_app/image_picker_screen.dart';
 import 'package:sic_app/login_enter_form.dart';
@@ -48,8 +49,8 @@ Future<void> main() async {
         username: username,
         password: password,
         phoneNumber: "",
-        remember: remember,
       );
+      MyUserInfo.remember = remember ?? false;
       try {
         await FirebaseAuth.instance.signInWithEmailAndPassword(
           email: MyUserInfo.username,
@@ -57,6 +58,11 @@ Future<void> main() async {
         );
         isSignedIn = FirebaseAuth.instance.currentUser != null;
         print("is signed in: $isSignedIn");
+        if (isSignedIn) {
+          UserKey.setUserKey(
+            userkey: MyUserInfo.username,
+          );
+        }
       } on FirebaseAuthException catch (e) {
         print("Error signing in: ${e.message}");
         isSignedIn = false;
@@ -67,8 +73,8 @@ Future<void> main() async {
       username: '',
       password: '',
       phoneNumber: '',
-      remember: false,
     );
+    MyUserInfo.remember = false;
   }
 
   print(MyUserInfo.username);

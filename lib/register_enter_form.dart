@@ -128,9 +128,9 @@ class Form extends StatelessWidget {
                   "ฉันมีบัญชีผู้ใช้แล้ว",
                   style: TextStyle(
                     fontSize: 12,
-                    color: MyColor.bluePrimary,
+                    color: MyColor.black.withAlpha(205),
                     decoration: TextDecoration.underline,
-                    decorationColor: MyColor.bluePrimary,
+                    decorationColor: MyColor.black,
                   ),
                 ),
               ),
@@ -312,7 +312,7 @@ class _RememberState extends State<Remember> {
 class Checkbox extends StatelessWidget {
   final bool isChecked;
 
-  const Checkbox({super.key, required this.isChecked});
+  const Checkbox({super.key, this.isChecked = false});
 
   @override
   Widget build(BuildContext context) {
@@ -433,13 +433,6 @@ class _AcceptButtonState extends State<AcceptButton> {
           phoneNumber: phoneNumber,
         );
 
-        db
-            .collection("UserInfo")
-            .doc(UserKey.userKey)
-            .set({
-              "PhoneNumber": phoneNumber,
-            }, SetOptions(merge: true)) // <-- merge option goes here
-            .onError((e, _) => print("Error writing document: $e"));
 
         print('Username: $username');
         print('Password: $password');
@@ -459,40 +452,44 @@ class _AcceptButtonState extends State<AcceptButton> {
               // setState(() {
               //   buttonChild = text;
               // });
+              db
+                  .collection("UserInfo")
+                  .doc(UserKey.userKey)
+                  .set({
+                    "PhoneNumber": phoneNumber,
+                  }, SetOptions(merge: true)) // <-- merge option goes here
+                  .onError((e, _) => print("Error writing document: $e"));
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => PersonalInfoSetting()),
               );
             })
             .catchError((error) {
+              print("buddy Error ${error.code}");
               String errorMessage;
               switch (error.code) {
                 case 'email-already-in-use':
                   errorMessage =
-                      'This email is already registered. Try logging in instead.';
+                      'อีเมลล์นี้ถูกใช้งานแล้ว';
                   break;
                 case 'invalid-email':
-                  errorMessage = 'Please enter a valid email address.';
+                  errorMessage = 'รูปแบบอีเมลล์ไม่ถูกต้อง';
                   break;
-                case 'weak-password':
+                case "weak-password":
                   errorMessage =
-                      'Your password is too weak. Use at least 6 characters.';
-                  break;
-                case 'operation-not-allowed':
-                  errorMessage =
-                      'Registration is currently disabled. Try again later.';
+                      'โปรดกรอกรหัสผ่านอย่างน้อย 6 ตัวอักษร';
                   break;
                 case 'network-request-failed':
                   errorMessage =
-                      'No internet connection. Please check your network.';
+                      'การเชื่อมต่อล้มเหลว';
                   break;
                 default:
-                  errorMessage = 'Registration failed. Please try again.';
+                  errorMessage = 'การลงทะเบียนล้มเหลว โปรดลองอีกครั้ง';
 
-                // setState(() {
-                //   buttonChild = text;
-                // });
               }
+                setState(() {
+                  buttonChild = text;
+                });
                 Fluttertoast.showToast(
                   msg: errorMessage,
                   toastLength: Toast.LENGTH_SHORT,

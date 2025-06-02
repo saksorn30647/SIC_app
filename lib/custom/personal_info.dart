@@ -63,7 +63,7 @@ class PersonalInfo {
     try {
       docRef.get().then((DocumentSnapshot doc) {
         final myData = doc.data() as Map<String, dynamic>;
-        final personalInfoData = myData['PersonalInfo'] as Map<String, dynamic>;
+        final personalInfoData = myData['PersonalInfo'] ?? <String, dynamic>{};
 
         print(personalInfoData);
         PersonalInfo.setPersonalInfo(

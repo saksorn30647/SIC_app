@@ -40,12 +40,18 @@ class LogoBase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 320,
-      height: 320,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: MyColor.squareColor,
+        color: MyColor.white,
         border: Border.all(color: MyColor.black, width: 1.0), // Border.all),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(50),
+        child: Image.asset(
+          'assets/app_logo.png',
+          width: 200,
+          height: 200,
+        ),
       ),
     );
   }
@@ -88,9 +94,9 @@ class LoginChoice extends StatelessWidget {
                 "Term of service",
                 style: TextStyle(
                   fontSize: 12,
-                  color: MyColor.bluePrimary,
+                  color: MyColor.black.withAlpha(205),
                   decoration: TextDecoration.underline,
-                  decorationColor: MyColor.bluePrimary,
+                  decorationColor: MyColor.black.withAlpha(205),
                 ),
               ),
             ),
