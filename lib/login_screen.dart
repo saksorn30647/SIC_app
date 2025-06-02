@@ -3,8 +3,8 @@ import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/login_choice.dart';
 import 'package:sic_app/login_enter_form.dart';
 
-class LoginSceen extends StatelessWidget {
-  const LoginSceen({super.key});
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,10 +21,12 @@ class LoginSceen extends StatelessWidget {
             // tileMode: TileMode.mirror,
           ),
         ),
-        child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
           child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [LogoBase(), SizedBox(height: 65), LoginChoice()],
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [LogoBase(), LoginChoice()],
           ),
         ),
       ),
@@ -55,23 +57,28 @@ class LoginChoice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 380,
-      height: 435,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         color: MyColor.squareColor,
         border: Border.all(color: MyColor.black, width: 1.0), // Border.all
       ),
-      child: Center(
+      child: Padding(
+        padding: const EdgeInsets.all(20.0),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text("โปรดเลือกรูปแบบการใช้งาน", style: TextStyle(fontSize: 20)),
-            SizedBox(height: 30),
-            LoginForElderly(),
-            SizedBox(height: 30),
-            LoginForMed(),
-            SizedBox(height: 110),
+            Column(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Text("โปรดเลือกรูปแบบการใช้งาน", style: TextStyle(fontSize: 20)),
+                SizedBox(height: 20),
+                LoginForElderly(),
+                SizedBox(height: 20),
+                LoginForMed(),
+              ],
+            ),
             TextButton(
               onPressed: () {
                 print('Privacy policy tapped');

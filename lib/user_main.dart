@@ -13,9 +13,14 @@ import 'package:sic_app/personal_info_setting.dart';
 import 'package:sic_app/setting_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class UserMain extends StatelessWidget {
+class UserMain extends StatefulWidget {
   const UserMain({super.key});
 
+  @override
+  State<UserMain> createState() => _UserMainState();
+}
+
+class _UserMainState extends State<UserMain> {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -24,7 +29,10 @@ class UserMain extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Content(),
+          Content(setAllState: () {
+            print("set all state");
+            setState(() {});
+          }),
           Container(
             decoration: BoxDecoration(
               border: Border.fromBorderSide(
@@ -37,7 +45,12 @@ class UserMain extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
-                colors: <Color>[MyColor.pinkSecondary, MyColor.bluePrimary],
+                colors: IsStateEmergency.isEmergency
+                    ? [MyColor.gray, MyColor.black]
+                    : [
+                      MyColor.pinkSecondary,
+                      MyColor.bluePrimary,
+                    ],
                 stops: [0.04, 1.0],
               ),
             ),
@@ -50,13 +63,14 @@ class UserMain extends StatelessWidget {
 }
 
 class Content extends StatelessWidget {
-  const Content({super.key});
+  final Function setAllState;
+  const Content({super.key, required this.setAllState});
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.all(20),
+    return Padding(
+      padding: const EdgeInsets.all(20),
+      child: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -77,20 +91,16 @@ class Content extends StatelessWidget {
                       builder: (context) => ImagePickerScreen(),
                     ),
                   ),
-              route: MaterialPageRoute(
-                builder: (context) => ImagePickerScreen(),
-              ),
             ),
             ButtonCard(
               svg: SvgPicture.asset(
-                'assets/arm_test_logo.svg',
+                'assets/bluetooth_logo.svg',
                 width: 100,
                 height: 100,
               ),
-              button: ArmTestButton(),
-              route: MaterialPageRoute(builder: (context) => LoginEnterForm()),
+              button: BluetoothButton(),
             ),
-            EmergencyButton(),
+            EmergencyButton(setAllState: setAllState),
           ],
         ),
       ),
@@ -155,6 +165,7 @@ class _WelcomeTextState extends State<WelcomeText> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20),
               child: Text(
+                IsStateEmergency.isEmergency ? "ฉุกเฉิน! ส่งข้อมูลถึงแพทย์" : 
                 'สวัสดีครับ คุณ$nickname',
                 style: TextStyle(fontSize: 24, color: MyColor.black),
               ),
@@ -188,8 +199,8 @@ class FaceScanButton extends StatelessWidget {
   }
 }
 
-class ArmTestButton extends StatelessWidget {
-  const ArmTestButton({super.key});
+class BluetoothButton extends StatelessWidget {
+  const BluetoothButton({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -202,7 +213,7 @@ class ArmTestButton extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
         child: Text(
-          'กดที่นี่เพื่อทดสอบแขนประจำวัน',
+          'กดที่นี่เพื่อต่อบลูทูธ',
           style: TextStyle(fontSize: 24, color: MyColor.black),
         ),
       ),
@@ -210,9 +221,15 @@ class ArmTestButton extends StatelessWidget {
   }
 }
 
-class EmergencyButton extends StatelessWidget {
-  const EmergencyButton({super.key});
-  
+class EmergencyButton extends StatefulWidget {
+  const EmergencyButton({super.key, required this.setAllState});
+  final Function setAllState;
+
+  @override
+  State<EmergencyButton> createState() => _EmergencyButtonState();
+}
+
+class _EmergencyButtonState extends State<EmergencyButton> {
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -226,10 +243,10 @@ class EmergencyButton extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              PhoneButton(),
+              PhoneButton(setAllState: widget.setAllState),
               SizedBox(height: 5),
               Text(
-                'โทร 1669',
+                IsStateEmergency.isEmergency ? "กดเพื่อกลับสู่ปกติ" : "โทร 1669",
                 style: TextStyle(fontSize: 24, color: MyColor.black),
               ),
             ],
@@ -241,7 +258,8 @@ class EmergencyButton extends StatelessWidget {
 }
 
 class PhoneButton extends StatefulWidget {
-  const PhoneButton({super.key});
+  const PhoneButton({super.key, required this.setAllState});
+  final Function setAllState;
 
   @override
   State<PhoneButton> createState() => _PhoneButtonState();
@@ -274,22 +292,54 @@ class _PhoneButtonState extends State<PhoneButton> {
       desiredAccuracy: LocationAccuracy.high,
     );
   }
+
   void callEmergencyNumber() async {
-  final Uri phoneUri = Uri(scheme: 'tel', path: '0841452614'); // Replace with the actual emergency number
-  if (await canLaunchUrl(phoneUri)) {
-    await launchUrl(phoneUri);
-  } else {
-    print('Could not launch dialer');
+    final Uri phoneUri = Uri(
+      scheme: 'tel',
+      path: PersonalInfo.emergencyContact,
+    ); // Replace with the actual emergency number
+    if (await canLaunchUrl(phoneUri)) {
+      await launchUrl(phoneUri);
+    } else {
+      print('Could not launch dialer');
+    }
   }
-}
+
+  Future<void> showEmergencyConfirmationDialog(
+    BuildContext context,
+    VoidCallback onConfirm,
+  ) async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap a button
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('ยืนยันสถานะฉุกเฉิน'),
+          content: Text('โปรดยืนยันการเข้าสู่สภาวะฉุกเฉิน'),
+          actions: <Widget>[
+            TextButton(
+              child: Text('ยกเลิก'),
+              onPressed: () {
+                Navigator.of(context).pop(); // close dialog
+              },
+            ),
+            TextButton(
+              child: Text('ยืนยัน', style: TextStyle(color: MyColor.danger)),
+              onPressed: () {
+                Navigator.of(context).pop(); // close dialog
+                onConfirm(); // run confirmation logic
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(builder: (context) => LoginEnterForm()),
-        // );
         _getLocation()
             .then((value) {
               latitude = value.latitude.toString();
@@ -311,14 +361,21 @@ class _PhoneButtonState extends State<PhoneButton> {
             });
         print('Phone button tapped');
         if (IsStateEmergency.isEmergency == false) {
-          IsStateEmergency.setEmergencyState(isEmergency: true);
-          print('State not emergency ---> emergency');
-          IsStateEmergency.setCloudEmergencyState(
-            onUpdate: () {
-              print('Emergency(true) state updated in Firestore');
-            },
-          );
-          callEmergencyNumber(); // Call the emergency number
+          showEmergencyConfirmationDialog(context, () {
+            setState(() {
+              IsStateEmergency.setEmergencyState(isEmergency: true);
+              print('State not emergency ---> emergency');
+              IsStateEmergency.setCloudEmergencyState(
+                onUpdate: () {
+                  print('Emergency(true) state updated in Firestore');
+                },
+              );
+              callEmergencyNumber();
+              // Call the emergency number // Now enter emergency mode
+            });
+            widget.setAllState();
+          });
+          
         } else {
           IsStateEmergency.setEmergencyState(isEmergency: false);
           print('State emergency ---> not emergency');
@@ -387,14 +444,12 @@ class SettingButton extends StatelessWidget {
 class ButtonCard extends StatelessWidget {
   final SvgPicture svg;
   final Widget button;
-  final MaterialPageRoute route;
   final void Function()? onTap;
 
   const ButtonCard({
     super.key,
     required this.svg,
     required this.button,
-    required this.route,
     this.onTap,
   });
 

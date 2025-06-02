@@ -2,6 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/login_choice.dart';
 import 'package:sic_app/custom/my_user_info.dart';
@@ -268,18 +270,14 @@ class _RememberState extends State<Remember> {
   void toggleCheckbox() {
     setState(() {
       isChecked = !isChecked;
+      MyUserInfo.remember = isChecked;
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap:
-          () => {
-            setState(() {
-              isChecked = !isChecked;
-            }),
-          },
+      onTap: toggleCheckbox,
       child: Row(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
@@ -395,7 +393,7 @@ class BackButton extends StatelessWidget {
         // Call your onPressed or onTap function here
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => LoginSceen()),
+          MaterialPageRoute(builder: (context) => LoginScreen()),
         );
       },
       child: Container(
@@ -462,35 +460,89 @@ class _AcceptButtonState extends State<AcceptButton> {
         print('UserKey: ${UserKey.userKey}');
 
         try {
-          await FirebaseAuth.instance
-              .signInWithEmailAndPassword(
-                email: MyUserInfo.username,
-                password: MyUserInfo.password,
-              )
-              .then((value) async {
-                if (IsLoginForEldery.isElderly == true) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => UserMain()),
-                  );
-                } else {
-                  final hasEmergency = await anyPatientInEmergency();
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder:
-                          (_) =>
-                              hasEmergency
-                                  ? const DoctorDanger()
-                                  : const DoctorMain(),
-                    ),
-                  );
-                }
-              });
+          await FirebaseAuth.instance.signInWithEmailAndPassword(
+            email: MyUserInfo.username,
+            password: MyUserInfo.password,
+          );
+          if (IsLoginForEldery.isElderly == true) {
+            Fluttertoast.showToast(
+              msg: "เข้าสู่ระบบผู้ใช้งาน",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: MyColor.bluePrimary,
+              textColor: MyColor.white,
+              fontSize: 16.0,
+            );
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => UserMain()),
+            );
+          } else {
+            final hasEmergency = await anyPatientInEmergency();
+            if(hasEmergency){
+              Fluttertoast.showToast(
+              msg: "พบผู้ป่วยฉุกเฉิน กำลังเข้าสู่ระบบ",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: MyColor.bluePrimary,
+              textColor: MyColor.white,
+              fontSize: 16.0,
+            );
+            }
+            else{
+               Fluttertoast.showToast(
+              msg: "กำลังเข้าสู่ระบบสำหรับแพทย์",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: MyColor.bluePrimary,
+              textColor: MyColor.white,
+              fontSize: 16.0,
+            );
+            }
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder:
+                    (_) =>
+                        hasEmergency
+                            ? const DoctorDanger()
+                            : const DoctorMain(),
+              ),
+            );
+          }
         } on FirebaseAuthException catch (e) {
-          print('${e}');
+          String errorMessage;
+          print("buddy error ${e.code}");
+          // FIX: Channel Error
+          switch (e.code) {
+            case 'user-not-found':
+              errorMessage = 'ไม่พบชื่อผู้ใช้นี้';
+              break;
+            case 'wrong-password':
+              errorMessage = 'รหัสไม่ถูกต้อง โปรดลองอีกครั้ง';
+              break;
+            case 'invalid-email':
+              errorMessage = 'รูปแบบอีเมลล์ไม่ถูกต้อง';
+              break;
+            case 'network-request-failed':
+              errorMessage = 'ไม่พบการเชื่อต่ออินเตอร์เน็ต';
+              break;
+            default:
+              errorMessage = 'เข้าสู่ระบบไม่สำเร็จ โปรดลองอีกครั้ง';
+          }
+          Fluttertoast.showToast(
+            msg: errorMessage,
+            toastLength: Toast.LENGTH_LONG,
+            gravity: ToastGravity.BOTTOM,
+            backgroundColor: MyColor.danger,
+            textColor: MyColor.white,
+            fontSize: 16.0,
+          );
         }
-        print('Login successful');
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString("username", MyUserInfo.username);
+        await prefs.setString("password", MyUserInfo.password);
+        await prefs.setBool("remember", MyUserInfo.remember);
       },
 
       child: Container(

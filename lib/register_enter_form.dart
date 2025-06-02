@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/my_user_info.dart';
 import 'package:sic_app/custom/user_key.dart';
@@ -22,14 +23,12 @@ class RegisterEnterForm extends StatelessWidget {
     return FutureBuilder(
       future: firebase,
       builder: (context, snapshot) {
-        print("I'm here");
         if (snapshot.hasError) {
           return Scaffold(
             appBar: AppBar(title: Text('error')),
             body: Center(child: Text('${snapshot.error}')),
           );
         }
-        print("I'm here 1");
         if (snapshot.connectionState == ConnectionState.done) {
           return Material(
             child: Container(
@@ -71,7 +70,7 @@ class RegisterEnterForm extends StatelessWidget {
             ),
           );
         }
-        print("I'm here 2");
+
         return Scaffold(body: Center(child: CircularProgressIndicator()));
       },
     );
@@ -449,20 +448,60 @@ class _AcceptButtonState extends State<AcceptButton> {
         FirebaseAuth.instance
             .createUserWithEmailAndPassword(email: username, password: password)
             .then((value) {
-              print("User Created");
-              setState(() {
-                buttonChild = text;
-              });
+              Fluttertoast.showToast(
+                msg: "สร้างบัญชีผู้ใช้สำเร็จ",
+                toastLength: Toast.LENGTH_SHORT,
+                gravity: ToastGravity.BOTTOM,
+                backgroundColor: MyColor.bluePrimary,
+                textColor: MyColor.white,
+                fontSize: 16.0,
+              );
+              // setState(() {
+              //   buttonChild = text;
+              // });
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => PersonalInfoSetting()),
               );
             })
             .catchError((error) {
-              print("Error: $error");
-              setState(() {
-                buttonChild = text;
-              });
+              String errorMessage;
+              switch (error.code) {
+                case 'email-already-in-use':
+                  errorMessage =
+                      'This email is already registered. Try logging in instead.';
+                  break;
+                case 'invalid-email':
+                  errorMessage = 'Please enter a valid email address.';
+                  break;
+                case 'weak-password':
+                  errorMessage =
+                      'Your password is too weak. Use at least 6 characters.';
+                  break;
+                case 'operation-not-allowed':
+                  errorMessage =
+                      'Registration is currently disabled. Try again later.';
+                  break;
+                case 'network-request-failed':
+                  errorMessage =
+                      'No internet connection. Please check your network.';
+                  break;
+                default:
+                  errorMessage = 'Registration failed. Please try again.';
+
+                // setState(() {
+                //   buttonChild = text;
+                // });
+              }
+                Fluttertoast.showToast(
+                  msg: errorMessage,
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM,
+                  backgroundColor: MyColor.danger,
+                  textColor: MyColor.white,
+                  fontSize: 16.0,
+                );
+              
             });
       },
 

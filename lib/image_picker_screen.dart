@@ -54,7 +54,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
     'aicanseeyourstroke.com/predictResultPlatform',
   );
   double? result;
-  double threshold = 0.5;
+  double threshold = 0.8;
   void onPredictResult() {
     predictResultChannel.setMethodCallHandler((MethodCall call) async {
       print("Buddy Flutter Method called: ${call.method}");
