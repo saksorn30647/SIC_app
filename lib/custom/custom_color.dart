@@ -11,7 +11,7 @@ class MyColor {
   static const pinkSecondary = Color(0xFFDE9B88);
 
   static const bluePrimary = Color(0xFF62B5D9);
-  static const blueSecondary = Color(0xFFEEDDEE);
+  static const blueSecondary = Color(0xFFC8F5F3);
   
   static const squareColor = white;
 }

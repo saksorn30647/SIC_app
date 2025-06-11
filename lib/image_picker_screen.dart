@@ -30,7 +30,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
   File? _selectedImage;
   String _imagePath = "";
 
-  void _getImageFromCamera() async {
+  void _pickImageFromGallery() async {
     try {
       final String image = await pickImageChannel.invokeMethod('pickImage');
       // print("Image path: $image");
@@ -148,13 +148,27 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                     ),
                   ),
                 SizedBox(height: 30),
-                CameraButton(getImageFromCamera: _getImageFromCamera),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    IconButton(function: _openCameraApp, iconPath: 'assets/camera.svg'),
+                    IconButton(function: _pickImageFromGallery, iconPath: 'assets/face_scan_logo.svg'),
+                  ],
+                ),
               ],
             ),
           ),
         ),
       ),
     );
+  }
+
+  void _openCameraApp() async {
+    try {
+      await pickImageChannel.invokeMethod('openCamera');
+    } catch (e) {
+      print("Buddy Error: $e");
+    }
   }
 }
 
@@ -195,22 +209,17 @@ class TextPhoto extends StatelessWidget {
   }
 }
 
-class CameraButton extends StatelessWidget {
-  final void Function() getImageFromCamera;
+class IconButton extends StatelessWidget {
+  final String iconPath;
+  final void Function() function;
 
-  const CameraButton({super.key, required this.getImageFromCamera});
+  const IconButton({super.key, required this.function, required this.iconPath});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () async {
-        // try {
-        //   final String image = await pickImageChannel.invokeMethod('pickImage');
-        //   print("Image path: $image");
-        // }catch (e) {
-        //   print("Buddy Error: $e");
-        // }
-        getImageFromCamera();
+        function();
       },
       child: Container(
         width: 120,
@@ -221,7 +230,7 @@ class CameraButton extends StatelessWidget {
           border: Border.all(color: MyColor.black, width: 1.0),
         ),
         child: Center(
-          child: SvgPicture.asset('assets/camera.svg', width: 70, height: 70),
+          child: SvgPicture.asset(iconPath, width: 70, height: 70),
         ),
       ),
     );

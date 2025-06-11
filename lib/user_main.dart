@@ -7,6 +7,7 @@ import 'package:sic_app/custom/emergency_state.dart';
 import 'package:sic_app/custom/my_user_info.dart';
 import 'package:sic_app/custom/personal_info.dart';
 import 'package:sic_app/custom/user_key.dart';
+import 'package:sic_app/face_scan_tutorial.dart';
 import 'package:sic_app/image_picker_screen.dart';
 import 'package:sic_app/login_enter_form.dart';
 import 'package:sic_app/personal_info_setting.dart';
@@ -84,7 +85,7 @@ class Content extends StatelessWidget {
         onTap:
             () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ImagePickerScreen()),
+              MaterialPageRoute(builder: (context) => FaceScanTutorialScreen()),
             ),
       ),
       SizedBox(height: 20),

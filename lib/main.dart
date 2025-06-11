@@ -9,6 +9,7 @@ import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/my_user_info.dart';
 import 'package:sic_app/custom/user_key.dart';
 import 'package:sic_app/doctor_main.dart';
+import 'package:sic_app/face_scan_tutorial.dart';
 import 'package:sic_app/image_picker_screen.dart';
 import 'package:sic_app/login_enter_form.dart';
 import 'package:sic_app/my_image_view.dart';
@@ -105,14 +106,18 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:
-          isLoggedIn
-              ? UserMain()
-              : LoginScreen(), // Change to UserMain() for main app
+      home: FaceScanTutorialScreen(),
+
+      // home:
+      //     isLoggedIn
+      //         ? UserMain()
+      //         : LoginScreen(), 
+
       // LoginEnterForm(),
       // RegisterEnterForm(),
       // PersonalInfoSetting(),
       // HealthInfoSetting(),
+      // LoginScreen(), 
       // UserMain(),
       // SettingScreen(),
       // ImagePickerScreen(),
