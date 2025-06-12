@@ -134,7 +134,13 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                       // child: Image.file(_selectedImage!),
-                      child: MyImageView(imageUrl: _imagePath),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        clipBehavior: Clip.hardEdge,
+                        child: MyImageView(imageUrl: _imagePath),
+                      ),
                     ),
                   )
                 else
@@ -151,8 +157,14 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    IconButton(function: _openCameraApp, iconPath: 'assets/camera.svg'),
-                    IconButton(function: _pickImageFromGallery, iconPath: 'assets/face_scan_logo.svg'),
+                    IconButton(
+                      function: _openCameraApp,
+                      iconPath: 'assets/camera.svg',
+                    ),
+                    IconButton(
+                      function: _pickImageFromGallery,
+                      iconPath: 'assets/face_scan_logo.svg',
+                    ),
                   ],
                 ),
               ],
@@ -229,9 +241,7 @@ class IconButton extends StatelessWidget {
           color: MyColor.white,
           border: Border.all(color: MyColor.black, width: 1.0),
         ),
-        child: Center(
-          child: SvgPicture.asset(iconPath, width: 70, height: 70),
-        ),
+        child: Center(child: SvgPicture.asset(iconPath, width: 70, height: 70)),
       ),
     );
   }
@@ -352,7 +362,8 @@ class _AcceptButtonState extends State<AcceptButton> {
             IsStateEmergency.isEmergency ? "โทร 1669" : "ยืนยัน",
             style: TextStyle(
               fontSize: 20,
-              color: IsStateEmergency.isEmergency ? MyColor.white : MyColor.black,
+              color:
+                  IsStateEmergency.isEmergency ? MyColor.white : MyColor.black,
             ),
           ),
         ),

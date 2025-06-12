@@ -102,9 +102,12 @@ class _MainContentState extends State<MainContent> {
   @override
   Widget build(BuildContext context) {
     List<Step> steps = [
-      Step(text: "1. ถ่ายรูปหน้าตรง", image: "รูปถ่ายรูปหน้าตรง"),
-      Step(text: "2. เลือกรูปภาพ", image: "รูปเลือกรูปภาพ"),
-      Step(text: "3. ดูผลการสแกนหน้า", image: "รูปดูผลการสแกนหน้า"),
+      Step(text: "1. กด สแกนหน้าประจำวัน", image: "assets/face_scan_guide_1.png"),
+      Step(text: "2. อ่านคู่มือถ่ายรูป", image: "assets/face_scan_guide_2.png"),
+      Step(text: "3. กดปุ่มถ่ายรูป", image: "assets/face_scan_guide_3.png"),
+      Step(text: "4. ถ่ายรูปหน้าตรง", image: "assets/face_scan_guide_4.png"),
+      Step(text: "5. เลือกรูปภาพ", image: "assets/face_scan_guide_5.png"),
+      Step(text: "6. ดูผลการสแกนหน้า", image: "assets/face_scan_guide_6.png"),
     ];
     widget.numSteps = steps.length;
 
@@ -117,10 +120,12 @@ class _MainContentState extends State<MainContent> {
         StepWidget(
           text: steps[i].text,
           image: steps[i].image,
-          isExpanding: i == (widget.expandingStep % widget.numSteps) ? true : false,
-          onClick: () {
-            nextStep();
-          },
+          isExpanding:
+              i == (widget.expandingStep % widget.numSteps) ? true : false,
+          onClick:
+              () => setState(() {
+                widget.expandingStep = i;
+              }),
         ),
       );
     }
@@ -217,19 +222,26 @@ class StepWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> children = [
-      Text(text, style: TextStyle(fontSize: 20, color: MyColor.black)),
-    ];
+    Widget children = Text(
+      text,
+      style: TextStyle(fontSize: 20, color: MyColor.black),
+    );
 
     if (isExpanding) {
-      children.add(
-        Expanded(
-          child: Center(
-            child: Text(
-              image,
-              style: TextStyle(fontSize: 20, color: MyColor.black),
-            ),
-          ),
+      children = Container(
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
+      clipBehavior: Clip.hardEdge,  
+        child: Image.asset(
+          image,
+        ),
+      );
+    } else {
+      children = Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [children],
         ),
       );
     }
@@ -240,21 +252,11 @@ class StepWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: MyColor.black, width: 1.0),
       ),
-      child: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Column(children: children)],
-        ),
-      ),
+      child: children,
     );
 
     if (isExpanding) {
-      return ConstrainedBox(
-        constraints: BoxConstraints.expand(height: 1000.0),
-        child: child,
-      );
+      return child;
     }
     return InkWell(
       onTap: () {

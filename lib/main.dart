@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sic_app/bluetooth_discover.dart';
 
 import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/my_user_info.dart';
@@ -24,6 +25,9 @@ import 'package:sic_app/user_main.dart';
 // import 'package:sic_app/user_main.dart';
 
 Future<void> main() async {
+  // runApp(MainApp(isLoggedIn: false));
+  // return;
+
   WidgetsFlutterBinding.ensureInitialized();
   // print('Before Firebase init');
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
@@ -106,7 +110,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FaceScanTutorialScreen(),
+      // home: FaceScanTutorialScreen(),
+      // home: BluetoothDiscoverScreen(),
+      home: UserMain(),
 
       // home:
       //     isLoggedIn

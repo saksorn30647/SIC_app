@@ -7,17 +7,16 @@ class IsStateEmergency {
   static setEmergencyState({isEmergency}) {
     IsStateEmergency.isEmergency = isEmergency;
   }
-  
-    static setCloudEmergencyState({required void Function() onUpdate}) {
 
+  static setCloudEmergencyState({required void Function() onUpdate}) {
     final db = FirebaseFirestore.instance;
     db
-            .collection("UserInfo")
-            .doc(UserKey.userKey)
-            .set({
-              "EmergencyState": isEmergency,
-            }, SetOptions(merge: true)) // <-- merge option goes here
-            .onError((e, _) => print("Error writing document: $e"));
-            onUpdate();
-}
+        .collection("UserInfo")
+        .doc(UserKey.userKey)
+        .set({
+          "EmergencyState": isEmergency,
+        }, SetOptions(merge: true)) // <-- merge option goes here
+        .onError((e, _) => print("Error writing document: $e"));
+    onUpdate();
+  }
 }

@@ -1,7 +1,12 @@
+import 'dart:async';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:sic_app/custom/bluetooth_device.dart';
 import 'package:sic_app/custom/custom_color.dart';
 import 'package:sic_app/custom/emergency_state.dart';
 import 'package:sic_app/custom/my_user_info.dart';
@@ -96,6 +101,120 @@ class Content extends StatelessWidget {
           height: 100,
         ),
         button: BluetoothButton(),
+        onTap: () async {
+          print("Bluetooth button tapped");
+
+          late StreamSubscription<BluetoothAdapterState> sub;
+          sub = FlutterBluePlus.adapterState.listen((state) {
+            print('Bluetooth adapter state: $state');
+            Fluttertoast.showToast(
+              msg: "$state",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: MyColor.bluePrimary,
+              textColor: MyColor.white,
+              fontSize: 16.0,
+            );
+            sub.cancel();
+          });
+          
+          await FlutterBluePlus.turnOn();
+
+          // return;
+
+          print("aldose");
+          if (MyBluetoothDevice.device != null) {
+            print("disconnecting");
+            await MyBluetoothDevice.device!.disconnect();
+            MyBluetoothDevice.device = null;
+            print("disconnected");
+          }
+          print("keytose");
+
+          StreamSubscription<List<ScanResult>>
+          subscription = FlutterBluePlus.onScanResults.listen(
+            (results) async {
+              if (results.isEmpty) {
+                return;
+              }
+              var r = results.last;
+              if (r.device.advName == "Fall Detector S3") {
+                MyBluetoothDevice.device = r.device;
+                await MyBluetoothDevice.device!.connect(
+                  autoConnect: true,
+                  mtu: null,
+                );
+                late StreamSubscription<BluetoothConnectionState>
+                onConnectionState;
+                onConnectionState = MyBluetoothDevice.device!.connectionState
+                    .listen((state) async {
+                      if (state == BluetoothConnectionState.connected) {
+                        await onConnectionState.cancel();
+
+                        List<BluetoothService> services =
+                            await MyBluetoothDevice.device!.discoverServices();
+                        for (var service in services) {
+                          for (var characteristic in service.characteristics) {
+                            if (characteristic.properties.notify) {
+                              MyBluetoothDevice.characteristic = characteristic;
+                              characteristic.lastValueStream.listen((value) {
+                                String myValue = value.toString();
+                                Fluttertoast.showToast(
+                                  msg: "Notification Value: $myValue",
+                                  toastLength: Toast.LENGTH_SHORT,
+                                  gravity: ToastGravity.BOTTOM,
+                                  backgroundColor: MyColor.bluePrimary,
+                                  textColor: MyColor.white,
+                                  fontSize: 16.0,
+                                );
+                              });
+                              await characteristic.setNotifyValue(true);
+                              Fluttertoast.showToast(
+                                msg: "Connected",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                backgroundColor: MyColor.bluePrimary,
+                                textColor: MyColor.white,
+                                fontSize: 16.0,
+                              );
+
+                              break;
+                            }
+                          }
+                        }
+                      }
+                    });
+              }
+              print('${r.device.advName} found! rssi: ${r.rssi}');
+            },
+            onError: (e) {
+              print("Buddy bluetooth error $e");
+            },
+          );
+
+          FlutterBluePlus.cancelWhenScanComplete(subscription);
+
+          await FlutterBluePlus.adapterState
+              .where((val) => val == BluetoothAdapterState.on)
+              .first;
+
+          await FlutterBluePlus.startScan(timeout: const Duration(seconds: 5));
+
+          await FlutterBluePlus.isScanning.where((val) => val == false).first;
+
+          print("buddy finished");
+          if (MyBluetoothDevice.device == null) {
+            print("Not connected");
+            Fluttertoast.showToast(
+              msg: "Not Connected",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: MyColor.danger,
+              textColor: MyColor.white,
+              fontSize: 16.0,
+            );
+          }
+        },
       ),
       SizedBox(height: 20),
       EmergencyButton(setAllState: setAllState),
