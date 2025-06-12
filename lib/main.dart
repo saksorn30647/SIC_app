@@ -112,12 +112,12 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       // home: FaceScanTutorialScreen(),
       // home: BluetoothDiscoverScreen(),
-      home: UserMain(),
+      // home: UserMain(),
 
-      // home:
-      //     isLoggedIn
-      //         ? UserMain()
-      //         : LoginScreen(), 
+      home:
+          isLoggedIn
+              ? UserMain()
+              : LoginScreen(), 
 
       // LoginEnterForm(),
       // RegisterEnterForm(),
