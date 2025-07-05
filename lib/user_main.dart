@@ -117,7 +117,7 @@ class Content extends StatelessWidget {
             );
             sub.cancel();
           });
-          
+
           await FlutterBluePlus.turnOn();
 
           // return;
@@ -146,44 +146,95 @@ class Content extends StatelessWidget {
                 );
                 late StreamSubscription<BluetoothConnectionState>
                 onConnectionState;
-                onConnectionState = MyBluetoothDevice.device!.connectionState
-                    .listen((state) async {
-                      if (state == BluetoothConnectionState.connected) {
-                        await onConnectionState.cancel();
+                onConnectionState = MyBluetoothDevice.device!.connectionState.listen((
+                  state,
+                ) async {
+                  if (state == BluetoothConnectionState.connected) {
+                    await onConnectionState.cancel();
 
-                        List<BluetoothService> services =
-                            await MyBluetoothDevice.device!.discoverServices();
-                        for (var service in services) {
-                          for (var characteristic in service.characteristics) {
-                            if (characteristic.properties.notify) {
-                              MyBluetoothDevice.characteristic = characteristic;
-                              characteristic.lastValueStream.listen((value) {
-                                String myValue = value.toString();
-                                Fluttertoast.showToast(
-                                  msg: "Notification Value: $myValue",
-                                  toastLength: Toast.LENGTH_SHORT,
-                                  gravity: ToastGravity.BOTTOM,
-                                  backgroundColor: MyColor.bluePrimary,
-                                  textColor: MyColor.white,
-                                  fontSize: 16.0,
-                                );
-                              });
-                              await characteristic.setNotifyValue(true);
-                              Fluttertoast.showToast(
-                                msg: "Connected",
-                                toastLength: Toast.LENGTH_SHORT,
-                                gravity: ToastGravity.BOTTOM,
-                                backgroundColor: MyColor.bluePrimary,
-                                textColor: MyColor.white,
-                                fontSize: 16.0,
-                              );
-
-                              break;
+                    List<BluetoothService> services =
+                        await MyBluetoothDevice.device!.discoverServices();
+                    for (var service in services) {
+                      for (var characteristic in service.characteristics) {
+                        if (characteristic.properties.notify) {
+                          MyBluetoothDevice.characteristic = characteristic;
+                          characteristic.lastValueStream.listen((value) {
+                            int myValue = value.last;
+                            Fluttertoast.showToast(
+                              msg: "Notification Value: $myValue",
+                              toastLength: Toast.LENGTH_SHORT,
+                              gravity: ToastGravity.BOTTOM,
+                              backgroundColor: MyColor.bluePrimary,
+                              textColor: MyColor.white,
+                              fontSize: 16.0,
+                            );
+                            if (myValue != 49) {
+                              return;
                             }
-                          }
+                            showDialog<void>(
+                              context: context,
+                              barrierDismissible:
+                                  false, // user must tap a button
+                              builder: (BuildContext context) {
+                                return AlertDialog(
+                                  title: Text('ยืนยันสถานะฉุกเฉิน'),
+                                  content: Text(
+                                    'โปรดยืนยันการเข้าสู่สภาวะฉุกเฉิน',
+                                  ),
+                                  actions: <Widget>[
+                                    TextButton(
+                                      child: Text('ยกเลิก'),
+                                      onPressed: () {
+                                        Navigator.of(
+                                          context,
+                                        ).pop(); // close dialog
+                                      },
+                                    ),
+                                    TextButton(
+                                      child: Text(
+                                        'ยืนยัน',
+                                        style: TextStyle(color: MyColor.danger),
+                                      ),
+                                      onPressed: () {
+                                        Navigator.of(
+                                          context,
+                                        ).pop(); // close dialog
+                                        IsStateEmergency.setEmergencyState(
+                                          isEmergency: true,
+                                        );
+                                        print(
+                                          'State not emergency ---> emergency',
+                                        );
+                                        IsStateEmergency.setCloudEmergencyState(
+                                          onUpdate: () {
+                                            print(
+                                              'Emergency(true) state updated in Firestore',
+                                            );
+                                          },
+                                        );
+                                      },
+                                    ),
+                                  ],
+                                );
+                              },
+                            );
+                          });
+                          await characteristic.setNotifyValue(true);
+                          Fluttertoast.showToast(
+                            msg: "Connected",
+                            toastLength: Toast.LENGTH_SHORT,
+                            gravity: ToastGravity.BOTTOM,
+                            backgroundColor: MyColor.bluePrimary,
+                            textColor: MyColor.white,
+                            fontSize: 16.0,
+                          );
+
+                          break;
                         }
                       }
-                    });
+                    }
+                  }
+                });
               }
               print('${r.device.advName} found! rssi: ${r.rssi}');
             },
